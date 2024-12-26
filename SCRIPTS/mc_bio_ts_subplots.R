@@ -1,3 +1,8 @@
+#------------------------------------------------------------------------------#
+#AUTHORS: Dias, B.S.
+#AFFILIATIONS: CICOES University of Washington/ Alaska Fisheries Science Center
+#E-MAIL OF CORRESPONDENCE AUTHOR: bia.dias@noaa.gov
+#------------------------------------------------------------------------------#
 # Load necessary libraries
 library(tidyverse)
 library(ggplot2)
@@ -296,22 +301,6 @@ subplots <- function(data,
       
       plot_list[[length(plot_list) + 1]] <- p
     }
-    
-   # # Add shaded ranges first, so they appear behind everything else
-   # if (!is.null(shaded_ranges)) {
-   #   for (range_vals in shaded_ranges) {
-   #     p <- p +
-   #       annotate(
-   #         "rect",
-   #         xmin = range_vals[1],
-   #         xmax = range_vals[2],
-   #         ymin = -Inf,
-   #         ymax = Inf,
-   #         fill = "gray80",
-   #         alpha = 0.4
-   #       )
-   #   }
-   # }
     
     if (length(plot_list) > 0) {
       # Arrange the plots in a grid
