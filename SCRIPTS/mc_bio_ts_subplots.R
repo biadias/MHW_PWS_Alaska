@@ -200,6 +200,7 @@ subplots <- function(data,
   total_pages <- ceiling(total_plots / (ncol * nrow))
   
   # Create a directory to save plots
+
   if (!dir.exists("FIGURES")) {
     dir.create("FIGURES")
   }
