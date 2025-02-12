@@ -1,0 +1,88 @@
+<svg height="400" width="600" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 2/5/2025, 12:57:02 PM -->
+<g transform="translate(12,18)">
+<g id="sankey_flows">
+<path id="flow0" d="M9 33.26895C243.51132 33.26895 284.29589 23.71081 518.80721 23.71081" fill="none" stroke-width="39.13802" stroke="#E3A87F" opacity="0.8"><title>2016 → II: 15.5270</title></path>
+<path id="flow8" d="M9 196.8224C243.51132 196.8224 284.29589 62.48082 518.80721 62.48082" fill="none" stroke-width="38.402" stroke="#92c5de" opacity="0.8"><title>2025 → II: 15.2350</title></path>
+<path id="flow9" d="M9 231.11197C243.51132 231.11197 284.29589 132.1746 518.80721 132.1746" fill="none" stroke-width="30.17714" stroke="#92c5de" opacity="0.8"><title>2025 → III: 11.9720</title></path>
+<path id="flow1" d="M9 67.84461C243.51132 67.84461 284.29589 102.07938 518.80721 102.07938" fill="none" stroke-width="30.0133" stroke="#E3A87F" opacity="0.8"><title>2016 → III: 11.9070</title></path>
+<path id="flow3" d="M9 118.06553C243.51132 118.06553 284.29589 215.50066 518.80721 215.50066" fill="none" stroke-width="23.63935" stroke="#E3A87F" opacity="0.8"><title>2016 → V: 9.3783</title></path>
+<path id="flow2" d="M9 94.54856C243.51132 94.54856 284.29589 164.35138 518.80721 164.35138" fill="none" stroke-width="23.39459" stroke="#E3A87F" opacity="0.8"><title>2016 → IV: 9.2812</title></path>
+<path id="flow11" d="M9 279.93279C243.51132 279.93279 284.29589 238.81119 518.80721 238.81119" fill="none" stroke-width="22.98171" stroke="#92c5de" opacity="0.8"><title>2025 → V: 9.1174</title></path>
+<path id="flow10" d="M9 257.32124C243.51132 257.32124 284.29589 187.16938 518.80721 187.16938" fill="none" stroke-width="22.2414" stroke="#92c5de" opacity="0.8"><title>2025 → IV: 8.8237</title></path>
+<path id="flow4" d="M9 140.08801C243.51132 140.08801 284.29589 265.89577 518.80721 265.89577" fill="none" stroke-width="20.40561" stroke="#E3A87F" opacity="0.8"><title>2016 → VI: 8.0954</title></path>
+<path id="flow12" d="M9 301.38296C243.51132 301.38296 284.29589 286.05789 518.80721 286.05789" fill="none" stroke-width="19.91863" stroke="#92c5de" opacity="0.8"><title>2025 → VI: 7.9022</title></path>
+<path id="flow13" d="M9 311.34228v10.37169L518.80721 322.07638v-10.37169z" fill="#92c5de" stroke-width="0.5" stroke="#92c5de" opacity="0.8"><title>2025 → VII: 4.1147</title></path>
+<path id="flow5" d="M9 155.4391C243.51132 155.4391 284.29589 306.5564 518.80721 306.5564" fill="none" stroke-width="10.29657" stroke="#E3A87F" opacity="0.8"><title>2016 → VII: 4.0849</title></path>
+<path id="flow14" d="M9 325.22976C243.51132 325.22976 284.29589 337.2305 518.80721 337.2305" fill="none" stroke-width="7.03159" stroke="#92c5de" opacity="0.8"><title>2025 → VIII: 2.7896</title></path>
+<path id="flow15" d="M9 331.9082C243.51132 331.9082 284.29589 356.82626 518.80721 356.82626" fill="none" stroke-width="6.3253" stroke="#92c5de" opacity="0.8"><title>2025 → IX: 2.5094</title></path>
+<path id="flow6" d="M9 163.7111C243.51132 163.7111 284.29589 330.591 518.80721 330.591" fill="none" stroke-width="6.24741" stroke="#E3A87F" opacity="0.8"><title>2016 → VIII: 2.4785</title></path>
+<path id="flow7" d="M9 169.53265C243.51132 169.53265 284.29589 350.96577 518.80721 350.96577" fill="none" stroke-width="5.39569" stroke="#E3A87F" opacity="0.8"><title>2016 → IX: 2.1406</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="13.69994" height="158.53055" width="9" fill="#E3A87F" fill-opacity="1"><title>2016:
+62.8929</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="518.80721" y="4.1418" height="77.54002" width="9" fill="#888888" fill-opacity="1"><title>II:
+30.7620</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="518.80721" y="87.07274" height="60.19044" width="9" fill="#888888" fill-opacity="1"><title>III:
+23.8790</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="518.80721" y="152.65409" height="45.63599" width="9" fill="#888888" fill-opacity="1"><title>IV:
+18.1049</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="518.80721" y="203.68099" height="46.62106" width="9" fill="#888888" fill-opacity="1"><title>V:
+18.4957</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="518.80721" y="255.69296" height="40.32424" width="9" fill="#888888" fill-opacity="1"><title>VI:
+15.9976</title></rect>
+</g>
+<g class="node">
+<rect id="r6" class="for_r6" x="518.80721" y="301.40812" height="20.66826" width="9" fill="#888888" fill-opacity="1"><title>VII:
+8.1996</title></rect>
+</g>
+<g class="node">
+<rect id="r7" class="for_r7" x="518.80721" y="327.4673" height="13.279" width="9" fill="#888888" fill-opacity="1"><title>VIII:
+5.2681</title></rect>
+</g>
+<g class="node">
+<rect id="r8" class="for_r8" x="518.80721" y="346.13721" height="11.72099" width="9" fill="#888888" fill-opacity="1" transform="translate(0,2.13071)"><title>IX:
+4.6500</title></rect>
+</g>
+<g class="node">
+<rect id="r9" class="for_r9" x="0" y="177.62141" height="157.44945" width="9" fill="#92c5de" fill-opacity="1"><title>2025:
+62.4640</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="16px" fill="#000000">
+<text text-anchor="middle" x="288" y="377" font-size="12px" font-weight="400" fill="#336781">Made at SankeyMATIC.com</text>
+<rect id="label0_bg" class="for_r0" x="10.6327" y="66.51551" width="71.71391" height="51.8794" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="start" x="15.29754" y="92.96521" font-weight="400" font-size="27.864px" dy="1.5503">2016<tspan x="15.29754" dy="17.8794" font-weight="100" font-size="13.416px">62.8929</tspan></text>
+<rect id="label1_bg" class="for_r1" x="529.43989" y="21.8595" width="46.5601" height="40.44463" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label1" class="for_r1" text-anchor="start" x="534.10475" y="42.91181" font-weight="400" font-size="20.95267px" dy="0.94769">II<tspan x="534.10475" dy="13.44463" font-weight="100" font-size="10.08832px">30.7620</tspan></text>
+<rect id="label2_bg" class="for_r2" x="528.43989" y="97.30064" width="44.60453" height="38.49461" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label2" class="for_r2" text-anchor="start" x="534.10475" y="117.16795" font-weight="400" font-size="19.47214px" dy="1.13269">III<tspan x="534.10475" dy="12.49462" font-weight="100" font-size="9.37548px">23.8790</tspan></text>
+<rect id="label3_bg" class="for_r3" x="529.43989" y="156.71324" width="41.55332" height="36.69768" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label3" class="for_r3" text-anchor="start" x="534.10475" y="175.47208" font-weight="400" font-size="18.23014px" dy="1.24117">IV<tspan x="534.10475" dy="11.69767" font-weight="100" font-size="8.77747px">18.1049</tspan></text>
+<rect id="label4_bg" class="for_r4" x="528.43989" y="208.2057" width="42.6757" height="36.75162" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label4" class="for_r4" text-anchor="start" x="534.10475" y="226.99152" font-weight="400" font-size="18.3142px" dy="1.21419">V<tspan x="534.10475" dy="11.75161" font-weight="100" font-size="8.81795px">18.4957</tspan></text>
+<rect id="label5_bg" class="for_r5" x="528.43989" y="257.95166" width="41.88047" height="35.40683" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label5" class="for_r5" text-anchor="start" x="534.10475" y="275.85508" font-weight="400" font-size="17.77686px" dy="1.09659">VI<tspan x="534.10475" dy="11.40682" font-weight="100" font-size="8.55923px">15.9976</tspan></text>
+<rect id="label6_bg" class="for_r6" x="528.43989" y="294.297" width="35.12345" height="33.33051" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label6" class="for_r6" text-anchor="start" x="534.10475" y="311.74225" font-weight="400" font-size="16.09952px" dy="0.55474">VII<tspan x="534.10475" dy="10.33052" font-weight="100" font-size="7.75162px">8.1996</tspan></text>
+<rect id="label7_bg" class="for_r7" x="528.43989" y="317.57385" width="33.93266" height="31.9259" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label7" class="for_r7" text-anchor="start" x="534.10475" y="334.1068" font-weight="400" font-size="15.46895px" dy="0.46705">VIII<tspan x="534.10475" dy="9.92591" font-weight="100" font-size="7.44801px">5.2681</tspan></text>
+<rect id="label8_bg" class="for_r8" x="528.43989" y="335.50742" width="33.30766" height="31.84061" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,2.13071)"></rect>
+<text id="label8" class="for_r8" text-anchor="start" x="534.10475" y="351.9977" font-weight="400" font-size="15.336px" dy="0.5097" transform="translate(0,2.13071)">IX<tspan x="534.10475" dy="9.8406" font-weight="100" font-size="7.384px">4.6500</tspan></text>
+<rect id="label9_bg" class="for_r9" x="10.6327" y="229.92603" width="71.51078" height="51.82019" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label9" class="for_r9" text-anchor="start" x="15.29754" y="256.34613" font-weight="400" font-size="27.77174px" dy="1.5799">2025<tspan x="15.29754" dy="17.8202" font-weight="100" font-size="13.37158px">62.4640</tspan></text>
+</g>
+</g></svg>

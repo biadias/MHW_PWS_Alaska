@@ -100,7 +100,7 @@ Mod_null_dt <- Mod_null_long %>% mutate(Year= year(year), month=month(year)) %>%
 
 Mod_null_dt_pre_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month(year)) %>%
   group_by(Year, Functional_groups) %>%
-  filter(Year <= 2000 & Year < 2014) %>%
+  filter(Year <= 2010 & Year < 2014) %>%
   group_by(Functional_groups) %>%
   summarize(n = n(),
             mean_var = mean(value),
@@ -108,7 +108,7 @@ Mod_null_dt_pre_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month
 
 Mod_null_dt_post_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month(year)) %>%
   group_by(Year, Functional_groups) %>%
-  filter(Year > 2016 & Year <= 2023) %>%
+  filter(Year > 2020 & Year <= 2023) %>%
   group_by(Functional_groups) %>%
   summarize(n = n(),
             mean_var = mean(value),
@@ -118,7 +118,7 @@ options(scipen=999)
 comp <- Mod_null_dt_pre_mhw %>% 
 left_join(Mod_null_dt_post_mhw, by= "Functional_groups", suffix= c("_pre_mhw", "_post_mhw")) %>% 
   group_by(Functional_groups) %>%
-  mutate(diff =  mean_var_pre_mhw-mean_var_post_mhw) 
+  mutate(diff = (mean_var_post_mhw- mean_var_pre_mhw)) 
 
 
 
@@ -130,12 +130,11 @@ left_join(Mod_null_dt_post_mhw, by= "Functional_groups", suffix= c("_pre_mhw", "
 #pos_90 <- quantile(pos_values, probs = 0.90)
 
 
-quantile(comp$diff, c(.10, .50, .90))
-fil_data_posi_impact <- filter(comp, diff >= 0.31909506 ) # .90 percentile
-fil_data_neg_impact <- filter(comp, diff <= -0.04580480) # .10 percentile
+qnt <- quantile(comp$diff, c(.10, .50, .90))
+fil_data_posi_impact <- filter(comp, diff >= qnt[3]) # .90 percentile
+fil_data_neg_impact <- filter(comp, diff <= qnt[1]) # .10 percentile
 groups_posi <- fil_data_posi_impact$Functional_groups
 groups_neg <- fil_data_neg_impact$Functional_groups
-
 
 
 
@@ -182,17 +181,8 @@ palOrange <- colorRampPalette(c("#E69F00", "#D55E00"))(62)
 
 #I had to create this by hand, I have to figure out how to make this better. And also automate this
 
-groups_posi <- c(
-  "Herring_S",
-  "Invert_eat_seaduck",
-  "Pinnipeds",
-  "Resident_orca",
-  "Salmon_sharks",
-  "Spiny_dogfish",
-  "Transient_orca"
-)
 
-groups_neg <- c(
+groups_posi <- c(
   "Capelin",
   "Helmet_crab",
   "Leather_stars",
@@ -200,6 +190,16 @@ groups_neg <- c(
   "Pisaster_Evasterias",
   "Rockfish",
   "Snail_crust_S"
+)
+
+groups_neg <- c(
+  "Herring_S",
+  "Invert_eat_seaduck",
+  "Pinnipeds",
+  "Resident_orca",
+  "Salmon_sharks",
+  "Spiny_dogfish",
+  "Transient_orca"
 )
 
 # hand drawn palettes- colorblind
@@ -216,11 +216,11 @@ Positive_effect_groups_plot <-
   theme_transparent() +
   ylim(0,2) +
   xlim(1989, 2031) +
-  scale_fill_manual(values = palBlues, breaks = legend_order) +
-  scale_color_manual(values = palBlues, breaks = legend_order) +
+  scale_fill_manual(values = palBlues) +
+  scale_color_manual(values = palBlues) +
   geom_line(aes(colour = Functional_groups), size = 1.5) +
   #turning the CI on and off.
-  #geom_ribbon(aes(ymin = CI_lower, ymax = CI_upper, fill= Functional_groups), alpha =0.3)+
+  geom_ribbon(aes(ymin = CI_lower, ymax = CI_upper, fill= Functional_groups), alpha =0.3)+
   theme(
     axis.text.x =  element_text(size = 9, color = "black"),
     axis.title.x = element_text(
@@ -276,13 +276,13 @@ Positive_effect_groups_plot <-
   ) +
   facet_wrap(vars(Functional_groups), ncol = 2,
              labeller = labeller(Functional_groups = 
-                                   c("Herring_S"= "Small Pacific herring",
-                                     "Invert_eat_seaduck"= "Seaducks",
-                                     "Pinnipeds"= "Pinnipeds",
-                                     "Resident_orca"= "Resident orcas",
-                                     "Salmon_sharks"= "Salmon sharks",
-                                     "Spiny_dogfish"= "Spiny dogfish",
-                                     "Transient_orca"= "Transient orca"
+                                   c("Capelin"= "Capelin",
+                                    "Helmet_crab"= "Helmet crab",
+                                    "Leather_stars"= "Leather stars",
+                                    "Mussels"= "Mussels",
+                                    "Pisaster_Evasterias"= "Pisaster and Evasterias",
+                                    "Rockfish"= "Rockfish",
+                                    "Snail_crust_S"= "Snails"
                                    ))) +
   theme(strip.background = element_blank(),
         strip.text = element_text(color = "black"))
@@ -305,8 +305,8 @@ Negative_effect_groups_plot <-
   theme_transparent() +
   ylim(0, 2) +
   xlim(1989, 2031) +
-  scale_fill_manual(values = palOrange, breaks = legend_order) +
-  scale_color_manual(values = palOrange, breaks = legend_order) +
+  scale_fill_manual(values = palOrange) +
+  scale_color_manual(values = palOrange) +
   geom_line(aes(colour = Functional_groups), size = 1.5) +
   #turning the CI on and off.
   #geom_ribbon(aes(ymin = CI_lower, ymax = CI_upper, fill= Functional_groups), alpha =0.3)+
@@ -365,13 +365,13 @@ Negative_effect_groups_plot <-
   ) +
   facet_wrap(vars(Functional_groups), ncol = 2,
              labeller = labeller(Functional_groups = 
-                                   c("Capelin" ="Capelin",
-                                     "Helmet_crab" = "Helmet crab",
-                                     "Leather_stars"= "Leather stars",
-                                     "Mussels" = "Mussels",
-                                     "Pisaster_Evasterias"= "Pisaster and Evasterias",
-                                     "Rockfish"= "Rockfish",
-                                     "Snail_crust_S"= "Snails"
+                                   c("Herring_S"= "Small herring",
+                                    "Invert_eat_seaduck"= "Seaducks",
+                                    "Pinnipeds"= "Pinnipeds",
+                                    "Resident_orca"= "Resident orca",
+                                    "Salmon_sharks"= "Salmon sharks",
+                                    "Spiny_dogfish"= "Dogfish",
+                                    "Transient_orca"= "Transient orca"
                                    ))) +
   theme(strip.background = element_blank(),
         strip.text = element_text(color = "black"))
