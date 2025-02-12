@@ -1,0 +1,147 @@
+// SankeyMATIC diagram inputs - Saved: 11/7/2023, 1:21:29 AM
+// https://sankeymatic.com/build/
+
+// === Nodes and Flows ===
+
+// Enter Flows between Nodes, like this:
+//         Source [AMOUNT] Target
+// transfer efficiency Network analysis Ecopath
+
+//1990 [16.155] II 
+//1990 [12.344] III
+//1990 [9.2529] IV
+//1990 [8.1221] V
+//1990 [7.4258] VI
+//1990 [3.9752] VII
+//1990 [3.1286] VIII
+//1990 [2.7671] IX
+
+//1997 MHW
+//1997 [15.864] II
+//1997 [12.385] III
+//1997 [9.3817] IV
+//1997 [9.4415] V
+//1997 [8.4007] VI
+//1997 [4.1765] VII
+//1997 [2.8428] VIII
+//1997 [2.5675] IX
+
+
+2000 [15.511] II
+2000 [11.828] III
+2000 [9.2740] IV
+2000 [9.2648] V
+2000 [8.0935] VI
+2000 [4.0815] VII
+2000 [2.5412] VIII
+2000 [2.8517] IX
+
+//2005 MHW
+//2005 [15.974] II
+//2005 [12.345] III
+//2005 [9.5696] IV
+//2005 [9.4758] V
+//2005 [9.4478] VI
+//2005 [4.1125] VII
+//2005 [2.4492] VIII
+//2005 [0.5106] IX
+
+2010	[15.726]	II
+2010	[12.176]	III
+2010	[9.4382]	IV
+2010	[9.5813]	V
+2010	[8.4380]	VI
+2010	[4.3843]	VII
+2010	[3.0017]	VIII
+2010	[2.5783]	IX
+
+//2016 MHW
+2016	[15.527]	II
+2016	[11.907]	III
+2016	[9.2812]	IV
+2016	[9.3783]	V
+2016	[8.0954]	VI
+2016	[4.0849]	VII
+2016	[2.4785]	VIII
+2016	[2.1406]	IX
+
+//2019 MHW
+2019 [15.777]	II
+2019 [12.113]	III
+2019 [9.3074]	IV
+2019 [9.3569]	V
+2019 [8.1009]	VI
+2019 [4.1243]	VII
+2019 [2.5751]	VIII
+2019 [2.1210]	IX
+
+//2025 [15.235] II
+//2025 [11.972] III
+//2025 [8.8237] IV
+//2025 [9.1174] V
+//2025 [7.9022] VI
+//2025 [4.1147] VII
+//2025 [2.7896] VIII
+//2025 [2.5094] IX
+
+
+// You can set a Node's color, like this:
+:1990 #4393c3
+//:1997 #f4a582
+//:2000 #5fa2ce
+//:2005 #DE9766
+:2010 #2166ac
+:2016 #E3A87F 
+:2019 #ffbc79
+//:2025 #92c5de 
+
+//            ...or a color for a single Flow:
+
+// Use the controls below to customize
+// your diagram's appearance...
+
+// === Settings ===
+
+size w 600
+  h 600
+margin l 12
+  r 12
+  t 18
+  b 20
+bg color #ffffff
+  transparent N
+node w 9
+  h 87
+  spacing 82
+  border 0
+  theme none
+  color #888888
+  opacity 1
+flow curvature 0.46
+  inheritfrom outside-in
+  color #999999
+  opacity 0.8
+layout order exact
+  justifyorigins N
+  justifyends N
+  reversegraph N
+  attachincompletesto nearest
+labels color #000000
+  highlight 0.55
+  fontface sans-serif
+labelname appears Y
+  size 16
+  weight 400
+labelvalue appears N
+  fullprecision Y
+labelposition first after
+  breakpoint 3
+value format ',.'
+  prefix ''
+  suffix ''
+themeoffset a 9
+  b 8
+  c 0
+  d 0
+meta mentionsankeymatic Y
+  listimbalances Y
