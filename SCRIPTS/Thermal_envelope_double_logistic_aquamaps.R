@@ -6,7 +6,7 @@
 #------------------------------------------------------------------------------#
 ## Code:    Query Aquamaps database
 ## Code modified from https://github.com/SEFSC/IEA-GWEM-DataSynth
-##------------------------------------------------------------------------------
+##-----------------------------------------------------------------------------#
 
 
 library(tidyverse)
@@ -15,7 +15,7 @@ library(ggpubr)
 library(ggrepel)
 library(here)
 
-## -----------------------------------------------------------------------------
+## ----------------------------------------------------------------------------#
 ##
 ## Logistic function
 
@@ -55,7 +55,7 @@ doublelogistic <- function(max = 30, steps = 1200, range = 'wide', min_abs, min_
   return(out)
 }
 
-#-----------------------------------------------
+#-----------------------------------------------#
 plot_pref_func <- function(p1, p2, p3, p4, fg_num, fg_name,
                            max = 400, xmin = -1, scale_xaxis = 'y', range = 'wide', driver = '') {
   pref_func <- doublelogistic(max = max, steps = max, range = range, p1, p2, p3, p4)

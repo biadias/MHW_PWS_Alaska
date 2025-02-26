@@ -1,0 +1,3734 @@
+{
+	"nodes": [
+		[
+			{
+				"B": 0.001000000047,
+				"type": 0,
+				"TL": 5.338799404,
+				"id": "Transient_orca",
+				"TG": 28
+			},
+			{
+				"B": 0.2210000008,
+				"type": 0,
+				"TL": 5.036493543,
+				"id": "Salmon_sharks",
+				"TG": 22
+			},
+			{
+				"B": 0.01499999966,
+				"type": 0,
+				"TL": 5.083994401,
+				"id": "Resident_orca",
+				"TG": 25
+			},
+			{
+				"B": 0.1103999987,
+				"type": 0,
+				"TL": 4.827826488,
+				"id": "Sleeper_sharks",
+				"TG": 24
+			},
+			{
+				"B": 0.6769999862,
+				"type": 0,
+				"TL": 4.472218296,
+				"id": "Halibut",
+				"TG": 19
+			},
+			{
+				"B": 0.0719999969,
+				"type": 0,
+				"TL": 4.488330996,
+				"id": "Pinnipeds",
+				"TG": 22
+			},
+			{
+				"B": 0.01499999966,
+				"type": 0,
+				"TL": 4.48158488,
+				"id": "Porpoise",
+				"TG": 22
+			},
+			{
+				"B": 0.07699999958,
+				"type": 0,
+				"TL": 4.297074458,
+				"id": "Lingcod",
+				"TG": 20
+			},
+			{
+				"B": 4.000000000,
+				"type": 0,
+				"TL": 4.152000000,
+				"id": "Arrowtooth_L",
+				"TG": 19
+			},
+			{
+				"B": 3.410000086,
+				"type": 0,
+				"TL": 4.120638801,
+				"id": "Salmon_L",
+				"TG": 19
+			},
+			{
+				"B": 0.3000000119,
+				"type": 0,
+				"TL": 4.025173242,
+				"id": "Pacific_cod",
+				"TG": 19
+			},
+			{
+				"B": 0.4799999893,
+				"type": 0,
+				"TL": 4.00387187,
+				"id": "Sablefish",
+				"TG": 19
+			},
+			{
+				"B": 0.2541560531,
+				"type": 0,
+				"TL": 4.005527,
+				"id": "Arrowtooth_S",
+				"TG": 18
+			},
+			{
+				"B": 0.1599999964,
+				"type": 0,
+				"TL": 3.902466231,
+				"id": "Spiny_dogfish",
+				"TG": 19
+			},
+			{
+				"B": 0.003304000,
+				"type": 0,
+				"TL": 3.867587837,
+				"id": "Raptors",
+				"TG": 18
+			},
+			{
+				"B": 0.157211300,
+				"type": 0,
+				"TL": 3.735646993,
+				"id": "Octopods",
+				"TG": 17
+			},
+			{
+				"B": 0.02199999988,
+				"type": 0,
+				"TL": 3.690383000,
+				"id": "Seabirds",
+				"TG": 18
+			},
+			{
+				"B": 1,
+				"type": 0,
+				"TL": 3.593652419,
+				"id": "Deep_demersals",
+				"TG": 17
+			},
+			{
+				"B": 5,
+				"type": 0,
+				"TL": 3.701503844,
+				"id": "Pollock_L",
+				"TG": 19
+			},
+			{
+				"B": 1.049999952,
+				"type": 0,
+				"TL": 3.739537656,
+				"id": "Rockfish",
+				"TG": 19
+			},
+			{
+				"B": 0.1490000039,
+				"type": 0,
+				"TL": 3.475435001,
+				"id": "Baleen_whales",
+				"TG": 18
+			},
+			{
+				"B": 0.7686616778,
+				"type": 0,
+				"TL": 3.213269,
+				"id": "Salmon_fry",
+				"TG": 15
+			},
+			{
+				"B": 4.199999809,
+				"type": 0,
+				"TL": 3.401321991,
+				"id": "Nshore_demersal",
+				"TG": 17
+			},
+			{
+				"B": 3,
+				"type": 0,
+				"TL": 3.255744827,
+				"id": "Squids",
+				"TG": 15
+			},
+			{
+				"B": 1.100000024,
+				"type": 0,
+				"TL": 3.248799997,
+				"id": "Eulachon",
+				"TG": 15
+			},
+			{
+				"B": 0.041603050,
+				"type": 0,
+				"TL": 3.18156144,
+				"id": "Sea_otters",
+				"TG": 16
+			},
+			{
+				"B": 30,
+				"type": 0,
+				"TL": 3.162306081,
+				"id": "Deep_epibenthos",
+				"TG": 17
+			},
+			{
+				"B": 0.4499999881,
+				"type": 0,
+				"TL": 3.109099997,
+				"id": "Capelin",
+				"TG": 15
+			},
+			{
+				"B": 2.92808189,
+				"type": 0,
+				"TL": 3.100450012,
+				"id": "Herring_L",
+				"TG": 15
+			},
+			{
+				"B": 0.5697857141,
+				"type": 0,
+				"TL": 3.068999998,
+				"id": "Pollock_S",
+				"TG": 15
+			},
+			{
+				"B": 0.000274,
+				"type": 0,
+				"TL": 3.12052941,
+				"id": "Invert_eat_seaduck",
+				"TG": 16
+			},
+			{
+				"B": 0.000304,
+				"type": 0,
+				"TL": 3.141647057,
+				"id": "Oystercatchers",
+				"TG": 16
+			},
+			{
+				"B": 0.5950000286,
+				"type": 0,
+				"TL": 3.06195,
+				"id": "Sandlance",
+				"TG": 15
+			},
+			{
+				"B": 0.3661106531,
+				"type": 0,
+				"TL": 3.0729,
+				"id": "Sunflower_stars",
+				"TG": 14
+			},
+			{
+				"B": 1,
+				"type": 0,
+				"TL": 3.133350002,
+				"id": "Pisaster_Evasterias",
+				"TG": 14
+			},
+			{
+				"B": 1,
+				"type": 0,
+				"TL": 3.146849997,
+				"id": "Leather_stars",
+				"TG": 14
+			},
+			{
+				"B": 0.5258111,
+				"type": 0,
+				"TL": 2,
+				"id": "Cucumbers",
+				"TG": 10
+			},
+			{
+				"B": 0.6055586,
+				"type": 0,
+				"TL": 2,
+				"id": "Urchins",
+				"TG": 10
+			},
+			{
+				"B": 0.7980067,
+				"type": 0,
+				"TL": 2.345000013,
+				"id": "Helmet_crab",
+				"TG": 14
+			},
+			{
+				"B": 1.888696,
+				"type": 0,
+				"TL": 3.025,
+				"id": "Herring_S",
+				"TG": 15
+			},
+			{
+				"B": 6.389999866,
+				"type": 0,
+				"TL": 2.957499998,
+				"id": "Jellies",
+				"TG": 15
+			},
+			{
+				"B": 49.4,
+				"type": 0,
+				"TL": 2.252604179,
+				"id": "Deep_infauna_S",
+				"TG": 11
+			},
+			{
+				"B": 0.1080000028,
+				"type": 0,
+				"TL": 2.249999997,
+				"id": "Near_omni_zoops",
+				"TG": 13
+			},
+			{
+				"B": 25,
+				"type": 0,
+				"TL": 2.249999997,
+				"id": "Omnivorous_zoops",
+				"TG": 13
+			},
+			{
+				"B": 51.5,
+				"type": 0,
+				"TL": 2.17647059,
+				"id": "Shal_infauna_S",
+				"TG": 12
+			},
+			{
+				"B": 4.476147689,
+				"type": 0,
+				"TL": 2.111111116,
+				"id": "Meiofauna",
+				"TG": 11
+			},
+			{
+				"B": 28.35,
+				"type": 0,
+				"TL": 2.100000004,
+				"id": "Deep_infauna_L",
+				"TG": 11
+			},
+			{
+				"B": 18.95412,
+				"type": 0,
+				"TL": 2.149999997,
+				"id": "Snails_crustaceans_S",
+				"TG": 12
+			},
+			{
+				"B": 8.699999809,
+				"type": 0,
+				"TL": 2.1,
+				"id": "Mussels",
+				"TG": 10
+			},
+			{
+				"B": 8.699999809,
+				"type": 0,
+				"TL": 2.150000006,
+				"id": "Barnacles",
+				"TG": 10
+			},
+			{
+				"B": 12.5,
+				"type": 0,
+				"TL": 2.049999999,
+				"id": "Shal_infaunal_clams",
+				"TG": 10
+			},
+			{
+				"B": 2.435973,
+				"type": 0,
+				"TL": 2,
+				"id": "Near_herb_zoops",
+				"TG": 9
+			},
+			{
+				"B": 30,
+				"type": 0,
+				"TL": 2,
+				"id": "Herbivorous_zoops",
+				"TG": 13
+			},
+			{
+				"B": 5.631299,
+				"type": 1,
+				"TL": 1,
+				"id": "Near_phyto",
+				"TG": 6
+			},
+			{
+				"B": 10.70590022,
+				"type": 1,
+				"TL": 1,
+				"id": "Offshore_phyto",
+				"TG": 3
+			},
+			{
+				"B": 25,
+				"type": 1,
+				"TL": 1,
+				"id": "Fucus",
+				"TG": 2
+			},
+			{
+				"B": 25,
+				"type": 1,
+				"TL": 1,
+				"id": "Subtidal_kelps",
+				"TG": 2
+			},
+			{
+				"B": 25,
+				"type": 1,
+				"TL": 1,
+				"id": "Other_macroalgae",
+				"TG": 2
+			},
+			{
+				"B": 2,
+				"type": 2,
+				"TL": 1,
+				"id": "Nekton_falls",
+				"TG": 8
+			},
+			{
+				"B": 19.52000046,
+				"type": 2,
+				"TL": 1,
+				"id": "Inshore_detritus",
+				"TG": 7
+			},
+			{
+				"B": 114.48,
+				"type": 2,
+				"TL": 1,
+				"id": "Offshore_detritus",
+				"TG": 1
+			},
+			{
+				"B": 1.42468012,
+				"type": 3,
+				"TL": 5.108994479,
+				"id": "Salmon_seine",
+				"TG": 27
+			},
+			{
+				"B": 0.3829706377,
+				"type": 3,
+				"TL": 5.120678364,
+				"id": "Salmon_gillnets",
+				"TG": 27
+			},
+			{
+				"B": 0.0677161474,
+				"type": 3,
+				"TL": 4.05824914,
+				"id": "Herring_seine",
+				"TG": 21
+			},
+			{
+				"B": 0.004651634028,
+				"type": 3,
+				"TL": 4.238054163,
+				"id": "Shrimp_pot_trawl",
+				"TG": 23
+			},
+			{
+				"B": 0.1582964638,
+				"type": 3,
+				"TL": 4.711096222,
+				"id": "Pollock_trawl",
+				"TG": 23
+			},
+			{
+				"B": 0.08631974715,
+				"type": 3,
+				"TL": 5.091215677,
+				"id": "Demersal_longline",
+				"TG": 27
+			},
+			{
+				"B": 0.04429967515,
+				"type": 3,
+				"TL": 5.02379232,
+				"id": "Other_commercial",
+				"TG": 23
+			},
+			{
+				"B": 0.05068728978,
+				"type": 3,
+				"TL": 5.077205738,
+				"id": "Rec_anglers",
+				"TG": 21
+			},
+			{
+				"B": 0.01469261102,
+				"type": 3,
+				"TL": 5.032909867,
+				"id": "Subsistence_take",
+				"TG": 26
+			}
+		]
+	],
+	"links1": [
+		[
+			{
+				"source": "Salmon_sharks",
+				"target": "Salmon_seine",
+				"Weight": 0.005498936982
+			},
+			{
+				"source": "Salmon_sharks",
+				"target": "Demersal_longline",
+				"Weight": 0.005657078989
+			},
+			{
+				"source": "Salmon_sharks",
+				"target": "Rec_anglers",
+				"Weight": 0.0003063352924
+			},
+			{
+				"source": "Salmon_sharks",
+				"target": "Subsistence_take",
+				"Weight": 1.045971987e-05
+			},
+			{
+				"source": "Halibut",
+				"target": "Transient_orca",
+				"Weight": 3.017500281e-05
+			},
+			{
+				"source": "Halibut",
+				"target": "Resident_orca",
+				"Weight": 0.0006500249572
+			},
+			{
+				"source": "Halibut",
+				"target": "Sleeper_sharks",
+				"Weight": 0.01813320098
+			},
+			{
+				"source": "Halibut",
+				"target": "Octopods",
+				"Weight": 0.008963385625
+			},
+			{
+				"source": "Halibut",
+				"target": "Salmon_seine",
+				"Weight": 0.001476204619
+			},
+			{
+				"source": "Halibut",
+				"target": "Salmon_gillnets",
+				"Weight": 0.000727163193
+			},
+			{
+				"source": "Halibut",
+				"target": "Demersal_longline",
+				"Weight": 0.01163909733
+			},
+			{
+				"source": "Halibut",
+				"target": "Other_commercial",
+				"Weight": 9.754032703e-05
+			},
+			{
+				"source": "Halibut",
+				"target": "Subsistence_take",
+				"Weight": 0.003204517066
+			},
+			{
+				"source": "Pinnipeds",
+				"target": "Transient_orca",
+				"Weight": 0.002293300202
+			},
+			{
+				"source": "Pinnipeds",
+				"target": "Subsistence_take",
+				"Weight": 0.0006597770262
+			},
+			{
+				"source": "Porpoise",
+				"target": "Transient_orca",
+				"Weight": 0.002232950078
+			},
+			{
+				"source": "Porpoise",
+				"target": "Subsistence_take",
+				"Weight": 4.027920113e-06
+			},
+			{
+				"source": "Lingcod",
+				"target": "Pinnipeds",
+				"Weight": 0.001839599953
+			},
+			{
+				"source": "Lingcod",
+				"target": "Lingcod",
+				"Weight": 0.001270499946
+			},
+			{
+				"source": "Lingcod",
+				"target": "Deep_demersals",
+				"Weight": 0.03209999966
+			},
+			{
+				"source": "Lingcod",
+				"target": "Salmon_seine",
+				"Weight": 6.966070032e-06
+			},
+			{
+				"source": "Lingcod",
+				"target": "Demersal_longline",
+				"Weight": 0.0001487270019
+			},
+			{
+				"source": "Lingcod",
+				"target": "Other_commercial",
+				"Weight": 0.0001242520029
+			},
+			{
+				"source": "Lingcod",
+				"target": "Rec_anglers",
+				"Weight": 0.001308504972
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Salmon_sharks",
+				"Weight": 0.008066500061
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Sleeper_sharks",
+				"Weight": 0.1208880066
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Pollock_trawl",
+				"Weight": 2.303256963e-06
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Demersal_longline",
+				"Weight": 0.001220991719
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Other_commercial",
+				"Weight": 0.0002365969995
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Transient_orca",
+				"Weight": 0.0002414
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Salmon_sharks",
+				"Weight": 1.229334676
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Resident_orca",
+				"Weight": 0.09620369706
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Sleeper_sharks",
+				"Weight": 0.02417759981
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Halibut",
+				"Weight": 0.1557709301
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Pinnipeds",
+				"Weight": 0.2575439823
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Lingcod",
+				"Weight": 0.03455760119
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Raptors",
+				"Weight": 0.03504000088
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Salmon_seine",
+				"Weight": 1.391411066
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Salmon_gillnets",
+				"Weight": 0.3806762397
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Herring_seine",
+				"Weight": 0.001014236012
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Demersal_longline",
+				"Weight": 0.03510548547
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Rec_anglers",
+				"Weight": 0.04313097894
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Subsistence_take",
+				"Weight": 0.008182017133
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Salmon_sharks",
+				"Weight": 0.006453200499
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Resident_orca",
+				"Weight": 0.0006500249572
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Sleeper_sharks",
+				"Weight": 0.02417759981
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Halibut",
+				"Weight": 0.01405452108
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Pinnipeds",
+				"Weight": 0.01839599825
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Porpoise",
+				"Weight": 0.06132000049
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Sablefish",
+				"Weight": 0.02157120044
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Spiny_dogfish",
+				"Weight": 0.02289599888
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Salmon_seine",
+				"Weight": 0.008892357058
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Salmon_gillnets",
+				"Weight": 0.0009751138041
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Shrimp_pot_trawl",
+				"Weight": 0.0002750456497
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Pollock_trawl",
+				"Weight": 0.0006894687704
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Demersal_longline",
+				"Weight": 0.01268650463
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Other_commercial",
+				"Weight": 0.04266853107
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Subsistence_take",
+				"Weight": 0.0001652720071
+			},
+			{
+				"source": "Sablefish",
+				"target": "Transient_orca",
+				"Weight": 0.00018105
+			},
+			{
+				"source": "Sablefish",
+				"target": "Salmon_sharks",
+				"Weight": 0.1839162056
+			},
+			{
+				"source": "Sablefish",
+				"target": "Resident_orca",
+				"Weight": 0.0006500249572
+			},
+			{
+				"source": "Sablefish",
+				"target": "Sleeper_sharks",
+				"Weight": 0.004029599969
+			},
+			{
+				"source": "Sablefish",
+				"target": "Pinnipeds",
+				"Weight": 0.01839599825
+			},
+			{
+				"source": "Sablefish",
+				"target": "Porpoise",
+				"Weight": 0.04380000082
+			},
+			{
+				"source": "Sablefish",
+				"target": "Salmon_seine",
+				"Weight": 0.00190764432
+			},
+			{
+				"source": "Sablefish",
+				"target": "Salmon_gillnets",
+				"Weight": 0.000444046811
+			},
+			{
+				"source": "Sablefish",
+				"target": "Shrimp_pot_trawl",
+				"Weight": 3.009536908e-05
+			},
+			{
+				"source": "Sablefish",
+				"target": "Demersal_longline",
+				"Weight": 0.01558491477
+			},
+			{
+				"source": "Sablefish",
+				"target": "Other_commercial",
+				"Weight": 0.0006508447805
+			},
+			{
+				"source": "Sablefish",
+				"target": "Subsistence_take",
+				"Weight": 9.276088758e-05
+			},
+			{
+				"source": "Arrowtooth_S",
+				"target": "Halibut",
+				"Weight": 0.01171209963
+			},
+			{
+				"source": "Arrowtooth_S",
+				"target": "Pacific_cod",
+				"Weight": 0.01200000021
+			},
+			{
+				"source": "Arrowtooth_S",
+				"target": "Spiny_dogfish",
+				"Weight": 0.007631999628
+			},
+			{
+				"source": "Arrowtooth_S",
+				"target": "Octopods",
+				"Weight": 0.008963385625
+			},
+			{
+				"source": "Arrowtooth_S",
+				"target": "Deep_demersals",
+				"Weight": 0.01284000076
+			},
+			{
+				"source": "Spiny_dogfish",
+				"target": "Salmon_sharks",
+				"Weight": 0.012906401
+			},
+			{
+				"source": "Octopods",
+				"target": "Sleeper_sharks",
+				"Weight": 0.05439960295
+			},
+			{
+				"source": "Octopods",
+				"target": "Arrowtooth_L",
+				"Weight": 0.1211999961
+			},
+			{
+				"source": "Octopods",
+				"target": "Spiny_dogfish",
+				"Weight": 0.02289599888
+			},
+			{
+				"source": "Octopods",
+				"target": "Octopods",
+				"Weight": 0.02689015688
+			},
+			{
+				"source": "Octopods",
+				"target": "Salmon_seine",
+				"Weight": 5.970120037e-05
+			},
+			{
+				"source": "Octopods",
+				"target": "Shrimp_pot_trawl",
+				"Weight": 4.005669894e-07
+			},
+			{
+				"source": "Octopods",
+				"target": "Demersal_longline",
+				"Weight": 3.054319905e-06
+			},
+			{
+				"source": "Octopods",
+				"target": "Other_commercial",
+				"Weight": 0.0001106729978
+			},
+			{
+				"source": "Octopods",
+				"target": "Subsistence_take",
+				"Weight": 5.725830124e-05
+			},
+			{
+				"source": "Seabirds",
+				"target": "Transient_orca",
+				"Weight": 6.034999999e-05
+			},
+			{
+				"source": "Seabirds",
+				"target": "Raptors",
+				"Weight": 0.003650000228
+			},
+			{
+				"source": "Seabirds",
+				"target": "Subsistence_take",
+				"Weight": 6.080030062e-07
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Sleeper_sharks",
+				"Weight": 0.008059199937
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Halibut",
+				"Weight": 0.0445059956
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Arrowtooth_L",
+				"Weight": 0.1211999961
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Pacific_cod",
+				"Weight": 0.09482285161
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Sablefish",
+				"Weight": 0.1479167997
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Spiny_dogfish",
+				"Weight": 0.003815999814
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Octopods",
+				"Weight": 0.06274370105
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Deep_demersals",
+				"Weight": 0.3242100151
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Rockfish",
+				"Weight": 0.1119719949
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Shrimp_pot_trawl",
+				"Weight": 2.892966017e-05
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Pollock_trawl",
+				"Weight": 0.00189431099
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Demersal_longline",
+				"Weight": 0.0002812536807
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Other_commercial",
+				"Weight": 0.0001510531984
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Subsistence_take",
+				"Weight": 0.0003463271132
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Salmon_sharks",
+				"Weight": 0.006453200499
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Resident_orca",
+				"Weight": 0.0006500249572
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Sleeper_sharks",
+				"Weight": 0.04029600119
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Halibut",
+				"Weight": 0.4380325859
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Pinnipeds",
+				"Weight": 0.2189123891
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Lingcod",
+				"Weight": 0.0129590995
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Arrowtooth_L",
+				"Weight": 4.145040053
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Pacific_cod",
+				"Weight": 0.08759518316
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Sablefish",
+				"Weight": 0.6409728065
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Arrowtooth_S",
+				"Weight": 0.06424263649
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Spiny_dogfish",
+				"Weight": 0.02289599888
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Seabirds",
+				"Weight": 0.1987920025
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Salmon_seine",
+				"Weight": 0.0001623742219
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Shrimp_pot_trawl",
+				"Weight": 3.539110963e-06
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Pollock_trawl",
+				"Weight": 0.1625135858
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Demersal_longline",
+				"Weight": 0.0001539517552
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Other_commercial",
+				"Weight": 0.000108153803
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Subsistence_take",
+				"Weight": 2.404071893e-06
+			},
+			{
+				"source": "Rockfish",
+				"target": "Salmon_sharks",
+				"Weight": 0.07743840299
+			},
+			{
+				"source": "Rockfish",
+				"target": "Sleeper_sharks",
+				"Weight": 0.006044399953
+			},
+			{
+				"source": "Rockfish",
+				"target": "Pinnipeds",
+				"Weight": 0.05518799474
+			},
+			{
+				"source": "Rockfish",
+				"target": "Lingcod",
+				"Weight": 0.007622999678
+			},
+			{
+				"source": "Rockfish",
+				"target": "Spiny_dogfish",
+				"Weight": 0.007631999628
+			},
+			{
+				"source": "Rockfish",
+				"target": "Deep_demersals",
+				"Weight": 0.08025000215
+			},
+			{
+				"source": "Rockfish",
+				"target": "Salmon_seine",
+				"Weight": 0.0003070709936
+			},
+			{
+				"source": "Rockfish",
+				"target": "Salmon_gillnets",
+				"Weight": 0.0002325953064
+			},
+			{
+				"source": "Rockfish",
+				"target": "Shrimp_pot_trawl",
+				"Weight": 0.000117346307
+			},
+			{
+				"source": "Rockfish",
+				"target": "Pollock_trawl",
+				"Weight": 3.128028908e-06
+			},
+			{
+				"source": "Rockfish",
+				"target": "Demersal_longline",
+				"Weight": 0.004703326063
+			},
+			{
+				"source": "Rockfish",
+				"target": "Other_commercial",
+				"Weight": 0.0007761656889
+			},
+			{
+				"source": "Rockfish",
+				"target": "Rec_anglers",
+				"Weight": 0.006769845902
+			},
+			{
+				"source": "Rockfish",
+				"target": "Subsistence_take",
+				"Weight": 0.0007995604028
+			},
+			{
+				"source": "Baleen_whales",
+				"target": "Transient_orca",
+				"Weight": 0.0006035000224
+			},
+			{
+				"source": "Baleen_whales",
+				"target": "Sleeper_sharks",
+				"Weight": 0.004029599969
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Halibut",
+				"Weight": 0.02342419926
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Pinnipeds",
+				"Weight": 0.01839599825
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Lingcod",
+				"Weight": 0.008131200225
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Salmon_L",
+				"Weight": 0.09323272437
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Spiny_dogfish",
+				"Weight": 0.007631999628
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Seabirds",
+				"Weight": 0.08283000414
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Pollock_L",
+				"Weight": 0.06397695918
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Resident_orca",
+				"Weight": 0.0006500249572
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Sleeper_sharks",
+				"Weight": 0.004029599969
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Halibut",
+				"Weight": 0.03864992943
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Pinnipeds",
+				"Weight": 0.4231079768
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Porpoise",
+				"Weight": 0.04380000082
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Lingcod",
+				"Weight": 0.06911520238
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Arrowtooth_L",
+				"Weight": 1.212000007
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Pacific_cod",
+				"Weight": 0.09602314019
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Spiny_dogfish",
+				"Weight": 0.03129120004
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Raptors",
+				"Weight": 0.002919999801
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Octopods",
+				"Weight": 0.05378031375
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Seabirds",
+				"Weight": 0.4207764282
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Deep_demersals",
+				"Weight": 0.3531000023
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Rockfish",
+				"Weight": 0.007224000135
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Nshore_demersal",
+				"Weight": 0.7123199796
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Sea_otters",
+				"Weight": 0.05265000092
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Demersal_longline",
+				"Weight": 8.524213858e-07
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Other_commercial",
+				"Weight": 2.154941586e-05
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Subsistence_take",
+				"Weight": 0.0001382883282
+			},
+			{
+				"source": "Squids",
+				"target": "Salmon_sharks",
+				"Weight": 0.06453200049
+			},
+			{
+				"source": "Squids",
+				"target": "Sleeper_sharks",
+				"Weight": 0.002417760056
+			},
+			{
+				"source": "Squids",
+				"target": "Halibut",
+				"Weight": 0.002342421453
+			},
+			{
+				"source": "Squids",
+				"target": "Pinnipeds",
+				"Weight": 0.220751979
+			},
+			{
+				"source": "Squids",
+				"target": "Porpoise",
+				"Weight": 0.1314000057
+			},
+			{
+				"source": "Squids",
+				"target": "Arrowtooth_L",
+				"Weight": 0.1211999961
+			},
+			{
+				"source": "Squids",
+				"target": "Pacific_cod",
+				"Weight": 0.03000722572
+			},
+			{
+				"source": "Squids",
+				"target": "Sablefish",
+				"Weight": 0.2465279919
+			},
+			{
+				"source": "Squids",
+				"target": "Arrowtooth_S",
+				"Weight": 0.01736287411
+			},
+			{
+				"source": "Squids",
+				"target": "Spiny_dogfish",
+				"Weight": 0.01526399926
+			},
+			{
+				"source": "Squids",
+				"target": "Seabirds",
+				"Weight": 0.02319241079
+			},
+			{
+				"source": "Squids",
+				"target": "Deep_demersals",
+				"Weight": 0.1605000043
+			},
+			{
+				"source": "Squids",
+				"target": "Pollock_L",
+				"Weight": 0.601364983
+			},
+			{
+				"source": "Squids",
+				"target": "Rockfish",
+				"Weight": 0.5706960098
+			},
+			{
+				"source": "Squids",
+				"target": "Squids",
+				"Weight": 0.1350000012
+			},
+			{
+				"source": "Squids",
+				"target": "Deep_epibenthos",
+				"Weight": 5.999998748
+			},
+			{
+				"source": "Squids",
+				"target": "Shrimp_pot_trawl",
+				"Weight": 9.373269859e-05
+			},
+			{
+				"source": "Squids",
+				"target": "Other_commercial",
+				"Weight": 1.048680042e-05
+			},
+			{
+				"source": "Squids",
+				"target": "Subsistence_take",
+				"Weight": 1.298499956e-05
+			},
+			{
+				"source": "Eulachon",
+				"target": "Salmon_sharks",
+				"Weight": 0.004839900187
+			},
+			{
+				"source": "Eulachon",
+				"target": "Halibut",
+				"Weight": 0.002342421453
+			},
+			{
+				"source": "Eulachon",
+				"target": "Pinnipeds",
+				"Weight": 0.09749879174
+			},
+			{
+				"source": "Eulachon",
+				"target": "Porpoise",
+				"Weight": 0.02627999951
+			},
+			{
+				"source": "Eulachon",
+				"target": "Lingcod",
+				"Weight": 0.01219679986
+			},
+			{
+				"source": "Eulachon",
+				"target": "Arrowtooth_L",
+				"Weight": 0.1817999942
+			},
+			{
+				"source": "Eulachon",
+				"target": "Salmon_L",
+				"Weight": 0.04661635676
+			},
+			{
+				"source": "Eulachon",
+				"target": "Pacific_cod",
+				"Weight": 0.01080260394
+			},
+			{
+				"source": "Eulachon",
+				"target": "Sablefish",
+				"Weight": 0.3297311989
+			},
+			{
+				"source": "Eulachon",
+				"target": "Arrowtooth_S",
+				"Weight": 0.246552826
+			},
+			{
+				"source": "Eulachon",
+				"target": "Spiny_dogfish",
+				"Weight": 0.02823839962
+			},
+			{
+				"source": "Eulachon",
+				"target": "Seabirds",
+				"Weight": 0.1557204001
+			},
+			{
+				"source": "Eulachon",
+				"target": "Deep_demersals",
+				"Weight": 0.03209999966
+			},
+			{
+				"source": "Eulachon",
+				"target": "Pollock_L",
+				"Weight": 0.2954365432
+			},
+			{
+				"source": "Eulachon",
+				"target": "Salmon_fry",
+				"Weight": 0.9654390341
+			},
+			{
+				"source": "Eulachon",
+				"target": "Squids",
+				"Weight": 0.04500000214
+			},
+			{
+				"source": "Eulachon",
+				"target": "Rec_anglers",
+				"Weight": 1.463740062e-07
+			},
+			{
+				"source": "Eulachon",
+				"target": "Subsistence_take",
+				"Weight": 0.0001305070036
+			},
+			{
+				"source": "Sea_otters",
+				"target": "Transient_orca",
+				"Weight": 3.017500281e-05
+			},
+			{
+				"source": "Sea_otters",
+				"target": "Subsistence_take",
+				"Weight": 1.775240008e-07
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Sleeper_sharks",
+				"Weight": 0.0016118401
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Halibut",
+				"Weight": 0.165140629
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Arrowtooth_L",
+				"Weight": 0.4847999846
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Pacific_cod",
+				"Weight": 0.4297035269
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Sablefish",
+				"Weight": 0.1571615954
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Arrowtooth_S",
+				"Weight": 0.4340718625
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Spiny_dogfish",
+				"Weight": 0.01526399926
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Raptors",
+				"Weight": 0.002920000073
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Octopods",
+				"Weight": 0.1971944871
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Deep_demersals",
+				"Weight": 0.5200200077
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Pollock_L",
+				"Weight": 3.710549915
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Rockfish",
+				"Weight": 1.040255925
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Nshore_demersal",
+				"Weight": 1.958879927
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Squids",
+				"Weight": 0.1800000085
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Sea_otters",
+				"Weight": 0.2106000037
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Deep_epibenthos",
+				"Weight": 75.00002682
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Shrimp_pot_trawl",
+				"Weight": 0.004145166837
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Demersal_longline",
+				"Weight": 8.378529856e-06
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Other_commercial",
+				"Weight": 5.678040179e-05
+			},
+			{
+				"source": "Deep_epibenthos",
+				"target": "Subsistence_take",
+				"Weight": 0.0004644760047
+			},
+			{
+				"source": "Capelin",
+				"target": "Salmon_sharks",
+				"Weight": 0.001613300125
+			},
+			{
+				"source": "Capelin",
+				"target": "Halibut",
+				"Weight": 0.001171210181
+			},
+			{
+				"source": "Capelin",
+				"target": "Pinnipeds",
+				"Weight": 0.1011779921
+			},
+			{
+				"source": "Capelin",
+				"target": "Arrowtooth_L",
+				"Weight": 0.4847999846
+			},
+			{
+				"source": "Capelin",
+				"target": "Salmon_L",
+				"Weight": 0.09323271351
+			},
+			{
+				"source": "Capelin",
+				"target": "Pacific_cod",
+				"Weight": 0.002400578002
+			},
+			{
+				"source": "Capelin",
+				"target": "Sablefish",
+				"Weight": 0.003081600114
+			},
+			{
+				"source": "Capelin",
+				"target": "Arrowtooth_S",
+				"Weight": 0.06945149646
+			},
+			{
+				"source": "Capelin",
+				"target": "Spiny_dogfish",
+				"Weight": 0.05342399882
+			},
+			{
+				"source": "Capelin",
+				"target": "Seabirds",
+				"Weight": 0.03313200042
+			},
+			{
+				"source": "Capelin",
+				"target": "Deep_demersals",
+				"Weight": 0.01604999983
+			},
+			{
+				"source": "Capelin",
+				"target": "Pollock_L",
+				"Weight": 0.0895650033
+			},
+			{
+				"source": "Capelin",
+				"target": "Rockfish",
+				"Weight": 0.003612000068
+			},
+			{
+				"source": "Capelin",
+				"target": "Salmon_fry",
+				"Weight": 0.482719517
+			},
+			{
+				"source": "Capelin",
+				"target": "Squids",
+				"Weight": 0.04500000214
+			},
+			{
+				"source": "Capelin",
+				"target": "Subsistence_take",
+				"Weight": 6.419089914e-05
+			},
+			{
+				"source": "Herring_L",
+				"target": "Salmon_sharks",
+				"Weight": 0.01774630043
+			},
+			{
+				"source": "Herring_L",
+				"target": "Resident_orca",
+				"Weight": 0.03055117359
+			},
+			{
+				"source": "Herring_L",
+				"target": "Halibut",
+				"Weight": 0.01171209963
+			},
+			{
+				"source": "Herring_L",
+				"target": "Pinnipeds",
+				"Weight": 0.220751979
+			},
+			{
+				"source": "Herring_L",
+				"target": "Porpoise",
+				"Weight": 0.1095000004
+			},
+			{
+				"source": "Herring_L",
+				"target": "Lingcod",
+				"Weight": 0.03176249937
+			},
+			{
+				"source": "Herring_L",
+				"target": "Arrowtooth_L",
+				"Weight": 1.454399954
+			},
+			{
+				"source": "Herring_L",
+				"target": "Salmon_L",
+				"Weight": 0.09323271351
+			},
+			{
+				"source": "Herring_L",
+				"target": "Pacific_cod",
+				"Weight": 0.02639760033
+			},
+			{
+				"source": "Herring_L",
+				"target": "Sablefish",
+				"Weight": 0.06779519892
+			},
+			{
+				"source": "Herring_L",
+				"target": "Arrowtooth_S",
+				"Weight": 0.1371667149
+			},
+			{
+				"source": "Herring_L",
+				"target": "Spiny_dogfish",
+				"Weight": 0.1320335912
+			},
+			{
+				"source": "Herring_L",
+				"target": "Seabirds",
+				"Weight": 0.513546022
+			},
+			{
+				"source": "Herring_L",
+				"target": "Deep_demersals",
+				"Weight": 0.0192600004
+			},
+			{
+				"source": "Herring_L",
+				"target": "Baleen_whales",
+				"Weight": 0.324820002
+			},
+			{
+				"source": "Herring_L",
+				"target": "Salmon_seine",
+				"Weight": 0.02055002027
+			},
+			{
+				"source": "Herring_L",
+				"target": "Herring_seine",
+				"Weight": 0.06814574136
+			},
+			{
+				"source": "Herring_L",
+				"target": "Demersal_longline",
+				"Weight": 0.006850024176
+			},
+			{
+				"source": "Herring_L",
+				"target": "Subsistence_take",
+				"Weight": 0.0003876921855
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Arrowtooth_L",
+				"Weight": 0.824160037
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Pacific_cod",
+				"Weight": 0.003597267674
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Sablefish",
+				"Weight": 0.009244799984
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Arrowtooth_S",
+				"Weight": 0.01736287411
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Spiny_dogfish",
+				"Weight": 0.007631999628
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Pollock_L",
+				"Weight": 0.02561633633
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Rockfish",
+				"Weight": 0.003612000068
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Squids",
+				"Weight": 0.04500000214
+			},
+			{
+				"source": "Invert_eat_seaduck",
+				"target": "Transient_orca",
+				"Weight": 0.0003620999999
+			},
+			{
+				"source": "Invert_eat_seaduck",
+				"target": "Subsistence_take",
+				"Weight": 1.961109956e-05
+			},
+			{
+				"source": "Sandlance",
+				"target": "Halibut",
+				"Weight": 0.001171210181
+			},
+			{
+				"source": "Sandlance",
+				"target": "Pinnipeds",
+				"Weight": 0.01839599825
+			},
+			{
+				"source": "Sandlance",
+				"target": "Porpoise",
+				"Weight": 0.004379999919
+			},
+			{
+				"source": "Sandlance",
+				"target": "Arrowtooth_L",
+				"Weight": 0.06059999807
+			},
+			{
+				"source": "Sandlance",
+				"target": "Salmon_L",
+				"Weight": 0.04661635676
+			},
+			{
+				"source": "Sandlance",
+				"target": "Pacific_cod",
+				"Weight": 0.002398178263
+			},
+			{
+				"source": "Sandlance",
+				"target": "Sablefish",
+				"Weight": 0.003081600114
+			},
+			{
+				"source": "Sandlance",
+				"target": "Arrowtooth_S",
+				"Weight": 0.03472574823
+			},
+			{
+				"source": "Sandlance",
+				"target": "Spiny_dogfish",
+				"Weight": 0.01526399926
+			},
+			{
+				"source": "Sandlance",
+				"target": "Seabirds",
+				"Weight": 0.06626400085
+			},
+			{
+				"source": "Sandlance",
+				"target": "Pollock_L",
+				"Weight": 0.07684901793
+			},
+			{
+				"source": "Sandlance",
+				"target": "Rockfish",
+				"Weight": 0.03973199864
+			},
+			{
+				"source": "Sandlance",
+				"target": "Baleen_whales",
+				"Weight": 0.129927996
+			},
+			{
+				"source": "Sandlance",
+				"target": "Salmon_fry",
+				"Weight": 0.482719517
+			},
+			{
+				"source": "Sandlance",
+				"target": "Nshore_demersal",
+				"Weight": 0.08903999745
+			},
+			{
+				"source": "Sandlance",
+				"target": "Sea_otters",
+				"Weight": 0.1053000018
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Sleeper_sharks",
+				"Weight": 0.000402960025
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Pacific_cod",
+				"Weight": 0.0144000007
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Spiny_dogfish",
+				"Weight": 0.03815999956
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Octopods",
+				"Weight": 0.05378031375
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Deep_demersals",
+				"Weight": 0.02247000096
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Pollock_L",
+				"Weight": 0.1612170012
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Nshore_demersal",
+				"Weight": 0.3561599566
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Sleeper_sharks",
+				"Weight": 0.000402960025
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Pacific_cod",
+				"Weight": 0.0144000007
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Spiny_dogfish",
+				"Weight": 0.02289599888
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Octopods",
+				"Weight": 0.0358535425
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Deep_demersals",
+				"Weight": 0.03209999966
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Pollock_L",
+				"Weight": 0.3838499937
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Nshore_demersal",
+				"Weight": 0.534239935
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Sea_otters",
+				"Weight": 0.1053000018
+			},
+			{
+				"source": "Leather_stars",
+				"target": "Sleeper_sharks",
+				"Weight": 0.000402960025
+			},
+			{
+				"source": "Leather_stars",
+				"target": "Pacific_cod",
+				"Weight": 0.0144000007
+			},
+			{
+				"source": "Leather_stars",
+				"target": "Spiny_dogfish",
+				"Weight": 0.02289599888
+			},
+			{
+				"source": "Leather_stars",
+				"target": "Octopods",
+				"Weight": 0.0358535425
+			},
+			{
+				"source": "Leather_stars",
+				"target": "Deep_demersals",
+				"Weight": 0.03209999966
+			},
+			{
+				"source": "Leather_stars",
+				"target": "Pollock_L",
+				"Weight": 0.3838499937
+			},
+			{
+				"source": "Leather_stars",
+				"target": "Nshore_demersal",
+				"Weight": 0.534239935
+			},
+			{
+				"source": "Cucumbers",
+				"target": "Sunflower_stars",
+				"Weight": 0.03403106455
+			},
+			{
+				"source": "Cucumbers",
+				"target": "Pisaster_Evasterias",
+				"Weight": 0.09999999776
+			},
+			{
+				"source": "Cucumbers",
+				"target": "Leather_stars",
+				"Weight": 0.09999999776
+			},
+			{
+				"source": "Cucumbers",
+				"target": "Subsistence_take",
+				"Weight": 7.509999733e-08
+			},
+			{
+				"source": "Urchins",
+				"target": "Seabirds",
+				"Weight": 0.003313200274
+			},
+			{
+				"source": "Urchins",
+				"target": "Sea_otters",
+				"Weight": 0.2632500144
+			},
+			{
+				"source": "Urchins",
+				"target": "Oystercatchers",
+				"Weight": 0.0007500000189
+			},
+			{
+				"source": "Urchins",
+				"target": "Sunflower_stars",
+				"Weight": 0.003403106693
+			},
+			{
+				"source": "Urchins",
+				"target": "Pisaster_Evasterias",
+				"Weight": 0.01000000047
+			},
+			{
+				"source": "Urchins",
+				"target": "Leather_stars",
+				"Weight": 0.01000000047
+			},
+			{
+				"source": "Urchins",
+				"target": "Subsistence_take",
+				"Weight": 1.939999947e-07
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Sleeper_sharks",
+				"Weight": 0.000402960025
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Halibut",
+				"Weight": 0.02810903998
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Pacific_cod",
+				"Weight": 0.0144000007
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Spiny_dogfish",
+				"Weight": 0.02289599888
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Octopods",
+				"Weight": 0.0358535425
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Deep_demersals",
+				"Weight": 0.03209999966
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Pollock_L",
+				"Weight": 0.3838499937
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Nshore_demersal",
+				"Weight": 0.534239935
+			},
+			{
+				"source": "Helmet_crab",
+				"target": "Sea_otters",
+				"Weight": 0.3685500162
+			},
+			{
+				"source": "Herring_S",
+				"target": "Halibut",
+				"Weight": 0.1206346377
+			},
+			{
+				"source": "Herring_S",
+				"target": "Pinnipeds",
+				"Weight": 0.169243188
+			},
+			{
+				"source": "Herring_S",
+				"target": "Porpoise",
+				"Weight": 0.01751999967
+			},
+			{
+				"source": "Herring_S",
+				"target": "Lingcod",
+				"Weight": 0.04726260018
+			},
+			{
+				"source": "Herring_S",
+				"target": "Arrowtooth_L",
+				"Weight": 0.4847999846
+			},
+			{
+				"source": "Herring_S",
+				"target": "Salmon_L",
+				"Weight": 0.09323271351
+			},
+			{
+				"source": "Herring_S",
+				"target": "Pacific_cod",
+				"Weight": 0.009592713052
+			},
+			{
+				"source": "Herring_S",
+				"target": "Sablefish",
+				"Weight": 0.1725696035
+			},
+			{
+				"source": "Herring_S",
+				"target": "Arrowtooth_S",
+				"Weight": 0.4549073024
+			},
+			{
+				"source": "Herring_S",
+				"target": "Spiny_dogfish",
+				"Weight": 0.01526399926
+			},
+			{
+				"source": "Herring_S",
+				"target": "Seabirds",
+				"Weight": 0.9972732319
+			},
+			{
+				"source": "Herring_S",
+				"target": "Deep_demersals",
+				"Weight": 0.01604999983
+			},
+			{
+				"source": "Herring_S",
+				"target": "Pollock_L",
+				"Weight": 0.7676999874
+			},
+			{
+				"source": "Herring_S",
+				"target": "Rockfish",
+				"Weight": 0.1119719949
+			},
+			{
+				"source": "Herring_S",
+				"target": "Baleen_whales",
+				"Weight": 0.357301995
+			},
+			{
+				"source": "Herring_S",
+				"target": "Salmon_fry",
+				"Weight": 0.7240792755
+			},
+			{
+				"source": "Herring_S",
+				"target": "Nshore_demersal",
+				"Weight": 0.08903999745
+			},
+			{
+				"source": "Herring_S",
+				"target": "Squids",
+				"Weight": 0.04500000214
+			},
+			{
+				"source": "Herring_S",
+				"target": "Herring_seine",
+				"Weight": 0.118900001
+			},
+			{
+				"source": "Jellies",
+				"target": "Sablefish",
+				"Weight": 0.1664064026
+			},
+			{
+				"source": "Jellies",
+				"target": "Spiny_dogfish",
+				"Weight": 0.02594880073
+			},
+			{
+				"source": "Jellies",
+				"target": "Pollock_L",
+				"Weight": 0.2558999958
+			},
+			{
+				"source": "Jellies",
+				"target": "Salmon_fry",
+				"Weight": 2.944589153
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Pacific_cod",
+				"Weight": 0.03357448115
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Sablefish",
+				"Weight": 0.01232640046
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Spiny_dogfish",
+				"Weight": 0.01526399926
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Octopods",
+				"Weight": 0.01792677125
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Deep_demersals",
+				"Weight": 0.3370499935
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Rockfish",
+				"Weight": 0.01083599978
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Deep_epibenthos",
+				"Weight": 90.0000304
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Deep_infauna_S",
+				"Weight": 45.44800039
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Arrowtooth_S",
+				"Weight": 0.001736287533
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Raptors",
+				"Weight": 0.0007299999504
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Seabirds",
+				"Weight": 0.03313200351
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Pollock_L",
+				"Weight": 0.02564198313
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Rockfish",
+				"Weight": 0.01083599978
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Baleen_whales",
+				"Weight": 0.0048723
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Salmon_fry",
+				"Weight": 0.04827195507
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Squids",
+				"Weight": 0.09000000427
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Eulachon",
+				"Weight": 0.05939998336
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Capelin",
+				"Weight": 0.02429999957
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Herring_L",
+				"Weight": 0.2434441473
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Pollock_S",
+				"Weight": 0.008296220282
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Sandlance",
+				"Weight": 0.01071000102
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Herring_S",
+				"Weight": 0.1128142658
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Jellies",
+				"Weight": 0.187929904
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Lingcod",
+				"Weight": 0.01956569951
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Arrowtooth_L",
+				"Weight": 2.424000013
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Sablefish",
+				"Weight": 0.206467203
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Arrowtooth_S",
+				"Weight": 0.2587068369
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Spiny_dogfish",
+				"Weight": 0.1679039947
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Raptors",
+				"Weight": 0.0007299999504
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Octopods",
+				"Weight": 0.01792677125
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Seabirds",
+				"Weight": 0.2054184162
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Deep_demersals",
+				"Weight": 0.06419999933
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Pollock_L",
+				"Weight": 4.634348925
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Rockfish",
+				"Weight": 1.44479998
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Baleen_whales",
+				"Weight": 0.8071777074
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Salmon_fry",
+				"Weight": 13.03342777
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Squids",
+				"Weight": 43.51500034
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Eulachon",
+				"Weight": 9.781198201
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Deep_epibenthos",
+				"Weight": 14.99999464
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Capelin",
+				"Weight": 3.345299811
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Herring_L",
+				"Weight": 42.60272303
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Pollock_S",
+				"Weight": 1.136582079
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Sandlance",
+				"Weight": 2.238390175
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Herring_S",
+				"Weight": 11.16861173
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Jellies",
+				"Weight": 43.03594638
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Deep_infauna_S",
+				"Weight": 102.2580072
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Pacific_cod",
+				"Weight": 0.03357448115
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Spiny_dogfish",
+				"Weight": 0.01526399926
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Octopods",
+				"Weight": 0.01792677125
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Deep_demersals",
+				"Weight": 0.01604999983
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Nshore_demersal",
+				"Weight": 0.1780799949
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Squids",
+				"Weight": 0.04500000214
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Invert_eat_seaduck",
+				"Weight": 0.04504999799
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Oystercatchers",
+				"Weight": 0.007500000468
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Shal_infauna_S",
+				"Weight": 177.6750071
+			},
+			{
+				"source": "Meiofauna",
+				"target": "Deep_demersals",
+				"Weight": 0.06419999933
+			},
+			{
+				"source": "Meiofauna",
+				"target": "Deep_epibenthos",
+				"Weight": 8.999998681
+			},
+			{
+				"source": "Meiofauna",
+				"target": "Meiofauna",
+				"Weight": 10.07133245
+			},
+			{
+				"source": "Deep_infauna_L",
+				"target": "Octopods",
+				"Weight": 0.08963385959
+			},
+			{
+				"source": "Deep_infauna_L",
+				"target": "Deep_demersals",
+				"Weight": 0.3210000086
+			},
+			{
+				"source": "Deep_infauna_L",
+				"target": "Sea_otters",
+				"Weight": 0.5265000288
+			},
+			{
+				"source": "Deep_infauna_L",
+				"target": "Deep_epibenthos",
+				"Weight": 14.99999464
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Sleeper_sharks",
+				"Weight": 0.00080592005
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Halibut",
+				"Weight": 0.02810903125
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Pacific_cod",
+				"Weight": 0.1199088919
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Spiny_dogfish",
+				"Weight": 0.01526399926
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Raptors",
+				"Weight": 0.002919999801
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Octopods",
+				"Weight": 0.1165240115
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Seabirds",
+				"Weight": 0.1093356032
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Deep_demersals",
+				"Weight": 0.0481499995
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Rockfish",
+				"Weight": 0.1697639893
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Salmon_fry",
+				"Weight": 8.061415907
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Nshore_demersal",
+				"Weight": 12.46559961
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Squids",
+				"Weight": 0.1350000012
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Eulachon",
+				"Weight": 0.01980000137
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Sea_otters",
+				"Weight": 0.1579500027
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Capelin",
+				"Weight": 0.2754000077
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Herring_L",
+				"Weight": 10.10293125
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Invert_eat_seaduck",
+				"Weight": 0.8559499701
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Oystercatchers",
+				"Weight": 0.0525000016
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Sandlance",
+				"Weight": 0.6747300433
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Sunflower_stars",
+				"Weight": 0.3403106582
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Pisaster_Evasterias",
+				"Weight": 2.00000003
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Leather_stars",
+				"Weight": 9.589999914
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Helmet_crab",
+				"Weight": 2.367335968
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Snails_crustaceans_S",
+				"Weight": 13.60026281
+			},
+			{
+				"source": "Snails_crustaceans_S",
+				"target": "Subsistence_take",
+				"Weight": 1.614279972e-05
+			},
+			{
+				"source": "Mussels",
+				"target": "Seabirds",
+				"Weight": 0.06626400085
+			},
+			{
+				"source": "Mussels",
+				"target": "Sea_otters",
+				"Weight": 0.5791500199
+			},
+			{
+				"source": "Mussels",
+				"target": "Invert_eat_seaduck",
+				"Weight": 1.351500023
+			},
+			{
+				"source": "Mussels",
+				"target": "Oystercatchers",
+				"Weight": 0.0142500005
+			},
+			{
+				"source": "Mussels",
+				"target": "Sunflower_stars",
+				"Weight": 1.630088036
+			},
+			{
+				"source": "Mussels",
+				"target": "Pisaster_Evasterias",
+				"Weight": 3.000000119
+			},
+			{
+				"source": "Mussels",
+				"target": "Leather_stars",
+				"Weight": 0.2999999933
+			},
+			{
+				"source": "Mussels",
+				"target": "Snails_crustaceans_S",
+				"Weight": 2.720052461
+			},
+			{
+				"source": "Mussels",
+				"target": "Subsistence_take",
+				"Weight": 4.001120033e-06
+			},
+			{
+				"source": "Barnacles",
+				"target": "Pisaster_Evasterias",
+				"Weight": 4.889999926
+			},
+			{
+				"source": "Barnacles",
+				"target": "Snails_crustaceans_S",
+				"Weight": 2.720052461
+			},
+			{
+				"source": "Shal_infaunal_clams",
+				"target": "Octopods",
+				"Weight": 0.08963385959
+			},
+			{
+				"source": "Shal_infaunal_clams",
+				"target": "Seabirds",
+				"Weight": 0.0596376057
+			},
+			{
+				"source": "Shal_infaunal_clams",
+				"target": "Deep_demersals",
+				"Weight": 0.1605000043
+			},
+			{
+				"source": "Shal_infaunal_clams",
+				"target": "Sea_otters",
+				"Weight": 2.895750178
+			},
+			{
+				"source": "Shal_infaunal_clams",
+				"target": "Sunflower_stars",
+				"Weight": 1.361242633
+			},
+			{
+				"source": "Shal_infaunal_clams",
+				"target": "Rec_anglers",
+				"Weight": 6.359130202e-05
+			},
+			{
+				"source": "Shal_infaunal_clams",
+				"target": "Subsistence_take",
+				"Weight": 0.0004323349858
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Salmon_fry",
+				"Weight": 2.510141596
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Squids",
+				"Weight": 0.04500000214
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Capelin",
+				"Weight": 0.03240000068
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Herring_L",
+				"Weight": 0.3651662068
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Pollock_S",
+				"Weight": 0.02074054926
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Sandlance",
+				"Weight": 0.05355000138
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Herring_S",
+				"Weight": 0.6768855688
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Jellies",
+				"Weight": 0.7517196161
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Near_omni_zoops",
+				"Weight": 0.005687928457
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Omnivorous_zoops",
+				"Weight": 1.106500011
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Snails_crustaceans_S",
+				"Weight": 19.04036773
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Mussels",
+				"Weight": 8.699999939
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Barnacles",
+				"Weight": 13.05000023
+			},
+			{
+				"source": "Near_herb_zoops",
+				"target": "Shal_infaunal_clams",
+				"Weight": 14.37500021
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Lingcod",
+				"Weight": 0.009655799498
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Seabirds",
+				"Weight": 0.003313200659
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Pollock_L",
+				"Weight": 0.9378734615
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Rockfish",
+				"Weight": 0.08668799826
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Salmon_fry",
+				"Weight": 19.0191491
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Nshore_demersal",
+				"Weight": 0.3561599898
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Squids",
+				"Weight": 0.6749999849
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Eulachon",
+				"Weight": 0.03960000274
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Deep_epibenthos",
+				"Weight": 14.99999464
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Capelin",
+				"Weight": 4.422599914
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Herring_L",
+				"Weight": 68.40779931
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Pollock_S",
+				"Weight": 2.982490975
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Sandlance",
+				"Weight": 7.732620402
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Herring_S",
+				"Weight": 100.8559482
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Jellies",
+				"Weight": 125.1613117
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Deep_infauna_S",
+				"Weight": 102.2580072
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Near_omni_zoops",
+				"Weight": 0.7053030837
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Omnivorous_zoops",
+				"Weight": 137.2059926
+			},
+			{
+				"source": "Herbivorous_zoops",
+				"target": "Deep_infauna_L",
+				"Weight": 65.20500185
+			},
+			{
+				"source": "Near_phyto",
+				"target": "Jellies",
+				"Weight": 1.315509306
+			},
+			{
+				"source": "Near_phyto",
+				"target": "Near_omni_zoops",
+				"Weight": 2.13297307
+			},
+			{
+				"source": "Near_phyto",
+				"target": "Shal_infauna_S",
+				"Weight": 710.7000282
+			},
+			{
+				"source": "Near_phyto",
+				"target": "Snails_crustaceans_S",
+				"Weight": 21.76041969
+			},
+			{
+				"source": "Near_phyto",
+				"target": "Mussels",
+				"Weight": 8.699999939
+			},
+			{
+				"source": "Near_phyto",
+				"target": "Barnacles",
+				"Weight": 30.44999881
+			},
+			{
+				"source": "Near_phyto",
+				"target": "Shal_infaunal_clams",
+				"Weight": 28.75000043
+			},
+			{
+				"source": "Near_phyto",
+				"target": "Near_herb_zoops",
+				"Weight": 204.4887509
+			},
+			{
+				"source": "Offshore_phyto",
+				"target": "Jellies",
+				"Weight": 17.47748066
+			},
+			{
+				"source": "Offshore_phyto",
+				"target": "Omnivorous_zoops",
+				"Weight": 414.9374843
+			},
+			{
+				"source": "Offshore_phyto",
+				"target": "Herbivorous_zoops",
+				"Weight": 1500
+			},
+			{
+				"source": "Fucus",
+				"target": "Urchins",
+				"Weight": 0.07261451942
+			},
+			{
+				"source": "Fucus",
+				"target": "Snails_crustaceans_S",
+				"Weight": 2.720052461
+			},
+			{
+				"source": "Subtidal_kelps",
+				"target": "Deep_epibenthos",
+				"Weight": 8.999999799
+			},
+			{
+				"source": "Subtidal_kelps",
+				"target": "Urchins",
+				"Weight": 0.4538407565
+			},
+			{
+				"source": "Subtidal_kelps",
+				"target": "Snails_crustaceans_S",
+				"Weight": 13.60026281
+			},
+			{
+				"source": "Other_macroalgae",
+				"target": "Deep_epibenthos",
+				"Weight": 5.999999866
+			},
+			{
+				"source": "Other_macroalgae",
+				"target": "Urchins",
+				"Weight": 0.925835126
+			},
+			{
+				"source": "Other_macroalgae",
+				"target": "Snails_crustaceans_S",
+				"Weight": 29.92057758
+			},
+			{
+				"source": "Nekton_falls",
+				"target": "Sleeper_sharks",
+				"Weight": 0.0165213607
+			},
+			{
+				"source": "Nekton_falls",
+				"target": "Halibut",
+				"Weight": 0.02342420144
+			},
+			{
+				"source": "Nekton_falls",
+				"target": "Pacific_cod",
+				"Weight": 0.02999769941
+			},
+			{
+				"source": "Nekton_falls",
+				"target": "Sablefish",
+				"Weight": 0.2804255914
+			},
+			{
+				"source": "Nekton_falls",
+				"target": "Spiny_dogfish",
+				"Weight": 0.007631999628
+			},
+			{
+				"source": "Nekton_falls",
+				"target": "Octopods",
+				"Weight": 0.02689015688
+			},
+			{
+				"source": "Nekton_falls",
+				"target": "Sunflower_stars",
+				"Weight": 0.03403106455
+			},
+			{
+				"source": "Nekton_falls",
+				"target": "Snails_crustaceans_S",
+				"Weight": 2.720052461
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Raptors",
+				"Weight": 0.0240900021
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Seabirds",
+				"Weight": 0.3412596124
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Deep_demersals",
+				"Weight": 0.03209999966
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Cucumbers",
+				"Weight": 1.310574264
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Urchins",
+				"Weight": 0.1815363053
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Helmet_crab",
+				"Weight": 5.523783611
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Shal_infauna_S",
+				"Weight": 296.125
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Meiofauna",
+				"Weight": 45.32099415
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Snails_crustaceans_S",
+				"Weight": 163.2031578
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Mussels",
+				"Weight": 69.59999951
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Barnacles",
+				"Weight": 43.49999905
+			},
+			{
+				"source": "Inshore_detritus",
+				"target": "Shal_infaunal_clams",
+				"Weight": 244.3750069
+			},
+			{
+				"source": "Offshore_detritus",
+				"target": "Deep_demersals",
+				"Weight": 0.4815000249
+			},
+			{
+				"source": "Offshore_detritus",
+				"target": "Deep_epibenthos",
+				"Weight": 60.00000536
+			},
+			{
+				"source": "Offshore_detritus",
+				"target": "Cucumbers",
+				"Weight": 0.436858088
+			},
+			{
+				"source": "Offshore_detritus",
+				"target": "Urchins",
+				"Weight": 0.1815363053
+			},
+			{
+				"source": "Offshore_detritus",
+				"target": "Deep_infauna_S",
+				"Weight": 886.2359949
+			},
+			{
+				"source": "Offshore_detritus",
+				"target": "Meiofauna",
+				"Weight": 45.32099415
+			},
+			{
+				"source": "Offshore_detritus",
+				"target": "Deep_infauna_L",
+				"Weight": 586.8449924
+			}
+		]
+	],
+	"links2": [
+		[
+			{
+				"source": "Salmon_sharks",
+				"target": "Pinnipeds",
+				"TG": 22
+			},
+			{
+				"source": "Salmon_sharks",
+				"target": "Porpoise",
+				"TG": 22
+			},
+			{
+				"source": "Halibut",
+				"target": "Arrowtooth_L",
+				"TG": 19
+			},
+			{
+				"source": "Halibut",
+				"target": "Salmon_L",
+				"TG": 19
+			},
+			{
+				"source": "Halibut",
+				"target": "Pacific_cod",
+				"TG": 19
+			},
+			{
+				"source": "Halibut",
+				"target": "Sablefish",
+				"TG": 19
+			},
+			{
+				"source": "Halibut",
+				"target": "Spiny_dogfish",
+				"TG": 19
+			},
+			{
+				"source": "Halibut",
+				"target": "Pollock_L",
+				"TG": 19
+			},
+			{
+				"source": "Halibut",
+				"target": "Rockfish",
+				"TG": 19
+			},
+			{
+				"source": "Pinnipeds",
+				"target": "Porpoise",
+				"TG": 22
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Salmon_L",
+				"TG": 19
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Pacific_cod",
+				"TG": 19
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Sablefish",
+				"TG": 19
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Spiny_dogfish",
+				"TG": 19
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Pollock_L",
+				"TG": 19
+			},
+			{
+				"source": "Arrowtooth_L",
+				"target": "Rockfish",
+				"TG": 19
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Pacific_cod",
+				"TG": 19
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Sablefish",
+				"TG": 19
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Spiny_dogfish",
+				"TG": 19
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Pollock_L",
+				"TG": 19
+			},
+			{
+				"source": "Salmon_L",
+				"target": "Rockfish",
+				"TG": 19
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Sablefish",
+				"TG": 19
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Spiny_dogfish",
+				"TG": 19
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Pollock_L",
+				"TG": 19
+			},
+			{
+				"source": "Pacific_cod",
+				"target": "Rockfish",
+				"TG": 19
+			},
+			{
+				"source": "Sablefish",
+				"target": "Spiny_dogfish",
+				"TG": 19
+			},
+			{
+				"source": "Sablefish",
+				"target": "Pollock_L",
+				"TG": 19
+			},
+			{
+				"source": "Sablefish",
+				"target": "Rockfish",
+				"TG": 19
+			},
+			{
+				"source": "Arrowtooth_S",
+				"target": "Raptors",
+				"TG": 18
+			},
+			{
+				"source": "Arrowtooth_S",
+				"target": "Seabirds",
+				"TG": 18
+			},
+			{
+				"source": "Arrowtooth_S",
+				"target": "Baleen_whales",
+				"TG": 18
+			},
+			{
+				"source": "Spiny_dogfish",
+				"target": "Pollock_L",
+				"TG": 19
+			},
+			{
+				"source": "Spiny_dogfish",
+				"target": "Rockfish",
+				"TG": 19
+			},
+			{
+				"source": "Raptors",
+				"target": "Seabirds",
+				"TG": 18
+			},
+			{
+				"source": "Raptors",
+				"target": "Baleen_whales",
+				"TG": 18
+			},
+			{
+				"source": "Octopods",
+				"target": "Deep_demersals",
+				"TG": 17
+			},
+			{
+				"source": "Octopods",
+				"target": "Nshore_demersal",
+				"TG": 17
+			},
+			{
+				"source": "Octopods",
+				"target": "Deep_epibenthos",
+				"TG": 17
+			},
+			{
+				"source": "Seabirds",
+				"target": "Baleen_whales",
+				"TG": 18
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Nshore_demersal",
+				"TG": 17
+			},
+			{
+				"source": "Deep_demersals",
+				"target": "Deep_epibenthos",
+				"TG": 17
+			},
+			{
+				"source": "Pollock_L",
+				"target": "Rockfish",
+				"TG": 19
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Squids",
+				"TG": 15
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Eulachon",
+				"TG": 15
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Capelin",
+				"TG": 15
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Herring_L",
+				"TG": 15
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Pollock_S",
+				"TG": 15
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Sandlance",
+				"TG": 15
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Herring_S",
+				"TG": 15
+			},
+			{
+				"source": "Salmon_fry",
+				"target": "Jellies",
+				"TG": 15
+			},
+			{
+				"source": "Nshore_demersal",
+				"target": "Deep_epibenthos",
+				"TG": 17
+			},
+			{
+				"source": "Squids",
+				"target": "Eulachon",
+				"TG": 15
+			},
+			{
+				"source": "Squids",
+				"target": "Capelin",
+				"TG": 15
+			},
+			{
+				"source": "Squids",
+				"target": "Herring_L",
+				"TG": 15
+			},
+			{
+				"source": "Squids",
+				"target": "Pollock_S",
+				"TG": 15
+			},
+			{
+				"source": "Squids",
+				"target": "Sandlance",
+				"TG": 15
+			},
+			{
+				"source": "Squids",
+				"target": "Herring_S",
+				"TG": 15
+			},
+			{
+				"source": "Squids",
+				"target": "Jellies",
+				"TG": 15
+			},
+			{
+				"source": "Eulachon",
+				"target": "Capelin",
+				"TG": 15
+			},
+			{
+				"source": "Eulachon",
+				"target": "Herring_L",
+				"TG": 15
+			},
+			{
+				"source": "Eulachon",
+				"target": "Pollock_S",
+				"TG": 15
+			},
+			{
+				"source": "Eulachon",
+				"target": "Sandlance",
+				"TG": 15
+			},
+			{
+				"source": "Eulachon",
+				"target": "Herring_S",
+				"TG": 15
+			},
+			{
+				"source": "Eulachon",
+				"target": "Jellies",
+				"TG": 15
+			},
+			{
+				"source": "Sea_otters",
+				"target": "Invert_eat_seaduck",
+				"TG": 16
+			},
+			{
+				"source": "Sea_otters",
+				"target": "Oystercatchers",
+				"TG": 16
+			},
+			{
+				"source": "Capelin",
+				"target": "Herring_L",
+				"TG": 15
+			},
+			{
+				"source": "Capelin",
+				"target": "Pollock_S",
+				"TG": 15
+			},
+			{
+				"source": "Capelin",
+				"target": "Sandlance",
+				"TG": 15
+			},
+			{
+				"source": "Capelin",
+				"target": "Herring_S",
+				"TG": 15
+			},
+			{
+				"source": "Capelin",
+				"target": "Jellies",
+				"TG": 15
+			},
+			{
+				"source": "Herring_L",
+				"target": "Pollock_S",
+				"TG": 15
+			},
+			{
+				"source": "Herring_L",
+				"target": "Sandlance",
+				"TG": 15
+			},
+			{
+				"source": "Herring_L",
+				"target": "Herring_S",
+				"TG": 15
+			},
+			{
+				"source": "Herring_L",
+				"target": "Jellies",
+				"TG": 15
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Sandlance",
+				"TG": 15
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Herring_S",
+				"TG": 15
+			},
+			{
+				"source": "Pollock_S",
+				"target": "Jellies",
+				"TG": 15
+			},
+			{
+				"source": "Invert_eat_seaduck",
+				"target": "Oystercatchers",
+				"TG": 16
+			},
+			{
+				"source": "Sandlance",
+				"target": "Herring_S",
+				"TG": 15
+			},
+			{
+				"source": "Sandlance",
+				"target": "Jellies",
+				"TG": 15
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Pisaster_Evasterias",
+				"TG": 14
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Leather_stars",
+				"TG": 14
+			},
+			{
+				"source": "Sunflower_stars",
+				"target": "Helmet_crab",
+				"TG": 14
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Leather_stars",
+				"TG": 14
+			},
+			{
+				"source": "Pisaster_Evasterias",
+				"target": "Helmet_crab",
+				"TG": 14
+			},
+			{
+				"source": "Leather_stars",
+				"target": "Helmet_crab",
+				"TG": 14
+			},
+			{
+				"source": "Cucumbers",
+				"target": "Urchins",
+				"TG": 10
+			},
+			{
+				"source": "Cucumbers",
+				"target": "Mussels",
+				"TG": 10
+			},
+			{
+				"source": "Cucumbers",
+				"target": "Barnacles",
+				"TG": 10
+			},
+			{
+				"source": "Cucumbers",
+				"target": "Shal_infaunal_clams",
+				"TG": 10
+			},
+			{
+				"source": "Urchins",
+				"target": "Mussels",
+				"TG": 10
+			},
+			{
+				"source": "Urchins",
+				"target": "Barnacles",
+				"TG": 10
+			},
+			{
+				"source": "Urchins",
+				"target": "Shal_infaunal_clams",
+				"TG": 10
+			},
+			{
+				"source": "Herring_S",
+				"target": "Jellies",
+				"TG": 15
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Meiofauna",
+				"TG": 11
+			},
+			{
+				"source": "Deep_infauna_S",
+				"target": "Deep_infauna_L",
+				"TG": 11
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Omnivorous_zoops",
+				"TG": 13
+			},
+			{
+				"source": "Near_omni_zoops",
+				"target": "Herbivorous_zoops",
+				"TG": 13
+			},
+			{
+				"source": "Omnivorous_zoops",
+				"target": "Herbivorous_zoops",
+				"TG": 13
+			},
+			{
+				"source": "Shal_infauna_S",
+				"target": "Snails_crustaceans_S",
+				"TG": 12
+			},
+			{
+				"source": "Meiofauna",
+				"target": "Deep_infauna_L",
+				"TG": 11
+			},
+			{
+				"source": "Mussels",
+				"target": "Barnacles",
+				"TG": 10
+			},
+			{
+				"source": "Mussels",
+				"target": "Shal_infaunal_clams",
+				"TG": 10
+			},
+			{
+				"source": "Barnacles",
+				"target": "Shal_infaunal_clams",
+				"TG": 10
+			},
+			{
+				"source": "Fucus",
+				"target": "Subtidal_kelps",
+				"TG": 2
+			},
+			{
+				"source": "Fucus",
+				"target": "Other_macroalgae",
+				"TG": 2
+			},
+			{
+				"source": "Subtidal_kelps",
+				"target": "Other_macroalgae",
+				"TG": 2
+			},
+			{
+				"source": "Salmon_seine",
+				"target": "Salmon_gillnets",
+				"TG": 27
+			},
+			{
+				"source": "Salmon_seine",
+				"target": "Demersal_longline",
+				"TG": 27
+			},
+			{
+				"source": "Salmon_gillnets",
+				"target": "Demersal_longline",
+				"TG": 27
+			},
+			{
+				"source": "Herring_seine",
+				"target": "Rec_anglers",
+				"TG": 21
+			},
+			{
+				"source": "Shrimp_pot_trawl",
+				"target": "Pollock_trawl",
+				"TG": 23
+			},
+			{
+				"source": "Shrimp_pot_trawl",
+				"target": "Other_commercial",
+				"TG": 23
+			},
+			{
+				"source": "Pollock_trawl",
+				"target": "Other_commercial",
+				"TG": 23
+			}
+		]
+	]
+}
