@@ -310,7 +310,7 @@ ggsave("FIGURES/plot_lossprod_mhw_v1.png",plot_lossprod_mhw_v1, width = 5.8, hei
 
 
 
-# Overlaid MHW plots #### 
+# Overlaid MHW plots_double Y-axis #### 
 # MHW analysis with heatwaveR package
 Lossprod_year_mhw <- data_summary %>%
   ggplot(aes(x = Year, y = AverageLossOfProduction)) +
