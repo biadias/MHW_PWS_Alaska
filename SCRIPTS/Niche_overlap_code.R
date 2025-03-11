@@ -73,16 +73,16 @@ plot_all_niche_overlap_files <- function(folder_path, output_folder = "FIGURES",
     base_name <- tools::file_path_sans_ext(basename(file))
     #output_svg <- file.path(out_folder_path, paste0(base_name, plot_suffix, ".svg"))
     #output_pdf <- file.path(out_folder_path, paste0(base_name, plot_suffix, ".pdf"))
-    output_png <- file.path(out_folder_path, paste0(base_name, plot_suffix, ".png"))
+    #output_png <- file.path(out_folder_path, paste0(base_name, plot_suffix, ".png"))
     
     #PNG
-    ggsave(
-      output_png,
-      plot = plot_obj,
-      width = 7.2,
-      height = 5,
-      bg = "transparent"
-    )
+    #ggsave(
+    #  output_png,
+    #  plot = plot_obj,
+    #  width = 7.2,
+    #  height = 5,
+    #  bg = "transparent"
+    #)
     
     # Save the plot as SVG using ggsave
     #ggsave(filename = output_svg, plot = plot_obj, bg = "transparent")
@@ -168,16 +168,16 @@ plot_all_niche_overlap_files_MHW <- function(folder_path, output_folder = "FIGUR
     base_name <- tools::file_path_sans_ext(basename(file))
     #output_svg <- file.path(out_folder_path, paste0(base_name, plot_suffix, ".svg"))
     #output_pdf <- file.path(out_folder_path, paste0(base_name, plot_suffix, ".pdf"))
-    output_png <- file.path(out_folder_path, paste0(base_name, plot_suffix, ".png"))
+    #output_png <- file.path(out_folder_path, paste0(base_name, plot_suffix, ".png"))
     
     #PNG
-    ggsave(
-      output_png,
-      plot = plot_obj,
-      width = 7.2,
-      height = 5,
-      bg = "transparent"
-    )
+    #ggsave(
+    #  output_png,
+    #  plot = plot_obj,
+    #  width = 7.2,
+    #  height = 5,
+    #  bg = "transparent"
+    #)
     
     # Save the plot as SVG using ggsave
     #ggsave(filename = output_svg, plot = plot_obj, bg = "transparent")
@@ -212,6 +212,6 @@ plot_niche_overlap <- Niche_overlap_2010 / Niche_overlap_2016
 plot_niche_overlap <- plot_niche_overlap+
   plot_annotation(tag_levels= list(c("A ","B ")))
 
-ggsave("FIGURES/plot_niche_overlap_2010_2016.png",plot_niche_overlap, width = 5.8, height = 6.6)
+ggsave("FIGURES/plot_niche_overlap_2010_2016.png",plot_niche_overlap, width = 8, height = 10)
 
 
