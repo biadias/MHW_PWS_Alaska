@@ -199,7 +199,7 @@ plot_all_niche_overlap_files_MHW <- function(folder_path, output_folder = "FIGUR
     
   }
 }
-#plot_all_niche_overlap_files_MHW("DATA/Niche_Overlap/", output_folder = "FIGURES/")
+plot_all_niche_overlap_files_MHW("DATA/Niche_Overlap/", output_folder = "FIGURES/")
 Niche_overlap_1996 <- `Refined PWS_v8_roms_Base1990_graph_Niche overlap_v2_processed`
 Niche_overlap_2010 <- `Refined PWS_v8_roms_2010_graph_Niche overlap_processed`
 Niche_overlap_2016 <- `Refined PWS_v8_roms_2016_MHW_graph_Niche overlap_processed`

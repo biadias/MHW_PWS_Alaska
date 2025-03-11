@@ -142,32 +142,34 @@ for (j in seq_len(nrow(fg_pref))) {
 library(gridExtra)
 library(grid)  # Load the grid package
 
-#grid.arrange(grobs = plots, nrow = 7) 
-
-
-# Split the plots list into two halves
-half_length <- ceiling(length(plots) / 2)
-first_half <- plots[1:half_length]
-second_half <- plots[(half_length+1):length(plots)]
-
-
-#pelagic_plots  <- plots[fg_pref$flagdem == 0]
-#demersal_plots <- plots[fg_pref$flagdem == 1]
-
-# Save the layout into an object
-first_half_grob <- arrangeGrob(grobs = first_half, nrow = 4)
-# To view the saved plot layout
-grid.draw(first_half_grob)
+thermal_envelope <- arrangeGrob(grobs = plots, nrow = 6) 
+grid.draw(thermal_envelope)
 dev.off()
-# If you want to save it to a file
-ggsave("FIGURES/Aquamaps_doublelogistic_temp1.png", first_half_grob, width = 10, height = 8)
+ggsave("FIGURES/Aquamaps_doublelogistic_all.pdf", thermal_envelope, width = 8, height = 10, dpi = 300 )
 
 
-# Save the layout into an object
-second_half_grob <- arrangeGrob(grobs = second_half, nrow = 4)
-# To view the saved plot layout
-grid.draw(second_half_grob)
-dev.off()
-# If you want to save it to a file
-ggsave("FIGURES/Aquamaps_doublelogistic_temp2.png", second_half_grob, width = 10, height = 8)
-
+## Split the plots list into two halves
+#half_length <- ceiling(length(plots) / 2)
+#first_half <- plots[1:half_length]
+#second_half <- plots[(half_length+1):length(plots)]
+#
+#
+##pelagic_plots  <- plots[fg_pref$flagdem == 0]
+##demersal_plots <- plots[fg_pref$flagdem == 1]
+#
+## Save the layout into an object
+#first_half_grob <- arrangeGrob(grobs = first_half, nrow = 4)
+## To view the saved plot layout
+#grid.draw(first_half_grob)
+#dev.off()
+## If you want to save it to a file
+#ggsave("FIGURES/Aquamaps_doublelogistic_temp1.png", first_half_grob, width = 10, height = 8, dpi = 300 )
+#
+#
+## Save the layout into an object
+#second_half_grob <- arrangeGrob(grobs = second_half, nrow = 4)
+## To view the saved plot layout
+#grid.draw(second_half_grob)
+#dev.off()
+## If you want to save it to a file
+#ggsave("FIGURES/Aquamaps_doublelogistic_temp2.png", second_half_grob, width = 10, height = 8)
