@@ -106,17 +106,39 @@ Mod_null_dt_pre_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month
             mean_var = mean(value),
             sd = sd(value))
 
+Mod_null_dt_during_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month(year)) %>%
+  group_by(Year, Functional_groups) %>%
+  filter(Year <= 2014 & Year < 2017) %>%
+  group_by(Functional_groups) %>%
+  summarize(n = n(),
+            mean_var = mean(value),
+            sd = sd(value))
+
+
 Mod_null_dt_post_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month(year)) %>%
   group_by(Year, Functional_groups) %>%
-  filter(Year > 2020 & Year <= 2023) %>%
+  filter(Year > 2020 & Year <= 2024) %>%
   group_by(Functional_groups) %>%
   summarize(n = n(),
             mean_var = mean(value),
             sd = sd(value))
 
 options(scipen=999)
+comp_mhw <- Mod_null_dt_pre_mhw %>% 
+left_join(Mod_null_dt_during_mhw, by= "Functional_groups", suffix= c("_pre_mhw", "_dur_mhw")) %>% 
+  group_by(Functional_groups) %>%
+  mutate(diff = (mean_var_dur_mhw- mean_var_pre_mhw)) 
+
+qnt <- quantile(comp$diff, c(.10, .50, .90))
+fil_data_posi_impact_mhw <- filter(comp_mhw, diff >= qnt[3]) # .90 percentile
+fil_data_neg_impact_mhw <- filter(comp_mhw, diff <= qnt[1]) # .10 percentile
+groups_posi_mhw <- fil_data_posi_impact_mhw$Functional_groups
+groups_neg_mhw <- fil_data_neg_impact_mhw$Functional_groups
+
+
+
 comp <- Mod_null_dt_pre_mhw %>% 
-left_join(Mod_null_dt_post_mhw, by= "Functional_groups", suffix= c("_pre_mhw", "_post_mhw")) %>% 
+  left_join(Mod_null_dt_post_mhw, by= "Functional_groups", suffix= c("_pre_mhw", "_post_mhw")) %>% 
   group_by(Functional_groups) %>%
   mutate(diff = (mean_var_post_mhw- mean_var_pre_mhw)) 
 
