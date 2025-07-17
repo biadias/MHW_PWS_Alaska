@@ -16,11 +16,12 @@ data_summary <- Ecosim_net %>%
     AverageAscendency = mean(Ascendency.on.flow),
     AverageLossOfProduction = mean(Loss.of.production..relative.)
   ) %>%
+  mutate(CumulativeLoss=cumsum(AverageLossOfProduction)) %>% 
   ungroup() %>% 
   filter(Year < 2023)
 #mutate(YearMonth = interaction(Year, Month, sep = "-")) # create a Year-Month interaction variable
 
-# Plot for Ascendency
+# Plot for Ascendency####
 
 Ascendency_year <- data_summary %>%
   #group_by(Month) %>%
@@ -88,7 +89,7 @@ ggsave(
 
 
 
-# Plot for Loss of production
+# Plot for Loss of production ####
 Lossprod_year <- data_summary %>%
   #group_by(Month) %>%
   ggplot(aes(x = Year, y = AverageLossOfProduction)) +
@@ -141,7 +142,7 @@ Lossprod_year <- data_summary %>%
     legend.text = element_text(size = 12, color = "darkgrey"),
     legend.title = element_text(size = 12, color = "darkgrey")
   ) +
-  labs(y = expression(paste("Production loss (",~mt/km^-2,")" )))
+  labs(y = expression(paste("Production loss (","mt" , ~km^{-2},")" )))
 
 ggsave(
   "FIGURES/Lossprod_year.png",
@@ -150,6 +151,61 @@ ggsave(
   height = 4.6,
   bg = "transparent"
 )
+
+# Plot for Culmulative Loss of production ####
+
+CumulativeLossprod_year <- data_summary %>%
+  ggplot(aes(x = Year, y = CumulativeLoss)) +
+  theme_transparent() +
+  geom_line(color = "#c85200", linewidth = 2) +
+  xlim(1988, 2022) +
+  annotate(
+    "rect",
+    xmin = 2013.5,
+    xmax = 2016.5,
+    ymin = -Inf,
+    ymax = Inf,
+    fill = "gray80",
+    alpha = 0.4
+  ) +
+  annotate(
+    "rect",
+    xmin = 2018.5,
+    xmax = 2019.9,
+    ymin = -Inf,
+    ymax = Inf,
+    fill = "gray80",
+    alpha = 0.4
+  ) +
+  annotate(
+    "rect",
+    xmin = 1989,
+    xmax = 1994,
+    ymin = -Inf,
+    ymax = Inf,
+    fill = "darkred",
+    alpha = 0.15
+  ) +
+  geom_vline(
+    xintercept = 1989,
+    color = "darkred",
+    linetype = "dashed",
+    linewidth = 1, 
+    alpha = 0.4
+  ) +
+  theme(
+    axis.text.x =  element_text(size = 12, color = "black"),
+    axis.title.x = element_blank(),
+    axis.text.y = element_text(size = 12, color = "black"),
+    axis.title.y = element_text(size = 12, color = "black"),
+    axis.ticks.x = element_line(colour = "darkgrey"),
+    axis.line.x = element_line(colour = "darkgrey"),
+    axis.ticks.y = element_line(colour = "darkgrey"),
+    axis.line.y = element_line(colour = "darkgrey"),
+    legend.text = element_text(size = 12, color = "darkgrey"),
+    legend.title = element_text(size = 12, color = "darkgrey")
+  ) +
+  labs(y = expression(paste("Cumulative production loss (","mt" , ~km^{-2},")" )))
 
 
 # Marine heatwave

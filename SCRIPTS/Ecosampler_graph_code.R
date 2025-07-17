@@ -86,7 +86,7 @@ head(summary_data)
 Biomass_plot <- vars_long %>% 
   filter(variable== "B") %>% 
 ggplot(aes(y = Group, x = value)) +
-  geom_boxplot(fill= "white", color= "#046C9A",position = position_dodge(0.75), outlier.shape = NA) +
+  geom_boxplot(fill= "white", color= "#046C9A", outlier.shape = NA) +
   #scale_x_log10()+
   theme_bw() +
   labs(
@@ -117,21 +117,23 @@ Production_plot <- vars_long %>%
   )
 
 
+setwd("C:/Users/biadias/Documents/Ecosystem-effects-of-marine-heatwaves-in-Prince-William-Sound-Alaska")
+
 ggsave(
   "FIGURES/Ecosampler_500_Biomass_plot.png",
   Biomass_plot,
-  width = 8,
-  height = 4.6
+  width = 10,
+  height = 8
 )
 ggsave(
   "FIGURES/Ecosampler_500_Consumption_plot.png",
   Consumption_plot,
-  width = 8,
-  height = 4.6
+  width = 10,
+  height = 8
 )
 ggsave(
   "FIGURES/Ecosampler_500_Production_plot.png",
   Production_plot,
-  width = 8,
-  height = 4.6
+  width = 10,
+  height = 8
 )

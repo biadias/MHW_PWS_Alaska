@@ -24,3 +24,5 @@ wes_palettes <- list(
   AsteroidCity2 = c("#C52E19", "#AC9765", "#54D8B1", "#b67c3b", "#175149", "#AF4E24"),
   AsteroidCity3 = c("#FBA72A", "#D3D4D8", "#CB7A5C", "#5785C1")
 )
+
+("#046C9A","#9986A5","#3B9AB2")
