@@ -6,7 +6,7 @@
 # Libraries ####
 
 library(here)
-library(hrbrthemes)
+#library(hrbrthemes)
 library(tidyverse)
 library(lubridate)
 library(janitor)
@@ -100,7 +100,7 @@ Mod_null_dt <- Mod_null_long %>% mutate(Year= year(year), month=month(year)) %>%
 
 Mod_null_dt_pre_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month(year)) %>%
   group_by(Year, Functional_groups) %>%
-  filter(Year <= 2010 & Year < 2014) %>%
+  filter(Year >= 2010 & Year < 2014) %>%
   group_by(Functional_groups) %>%
   summarize(n = n(),
             mean_var = mean(value),
@@ -108,7 +108,7 @@ Mod_null_dt_pre_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month
 
 Mod_null_dt_during_mhw <- Mod_null_long %>% mutate(Year = year(year), month = month(year)) %>%
   group_by(Year, Functional_groups) %>%
-  filter(Year <= 2014 & Year < 2017) %>%
+  filter(Year >= 2014 & Year < 2017) %>%
   group_by(Functional_groups) %>%
   summarize(n = n(),
             mean_var = mean(value),
@@ -129,20 +129,16 @@ left_join(Mod_null_dt_during_mhw, by= "Functional_groups", suffix= c("_pre_mhw",
   group_by(Functional_groups) %>%
   mutate(diff = (mean_var_dur_mhw- mean_var_pre_mhw)) 
 
-qnt <- quantile(comp$diff, c(.10, .50, .90))
+qnt <- quantile(comp_mhw$diff, c(.10, .50, .90))
 fil_data_posi_impact_mhw <- filter(comp_mhw, diff >= qnt[3]) # .90 percentile
 fil_data_neg_impact_mhw <- filter(comp_mhw, diff <= qnt[1]) # .10 percentile
 groups_posi_mhw <- fil_data_posi_impact_mhw$Functional_groups
 groups_neg_mhw <- fil_data_neg_impact_mhw$Functional_groups
 
-
-
 comp <- Mod_null_dt_pre_mhw %>% 
   left_join(Mod_null_dt_post_mhw, by= "Functional_groups", suffix= c("_pre_mhw", "_post_mhw")) %>% 
   group_by(Functional_groups) %>%
   mutate(diff = (mean_var_post_mhw- mean_var_pre_mhw)) 
-
-
 
 # Here I am finding which groups where affected during the marine heatwave with one year lag 2015-2020
 #neg_values <- comp$diff[comp$diff < 0]  # subset of x that is negative
@@ -161,7 +157,7 @@ groups_neg <- fil_data_neg_impact$Functional_groups
 
 
 Mod_null_dt2 <- Mod_null_dt%>% 
-  mutate(sem = sd / sqrt(n - 1),
+  mutate(sem = sd / sqrt(n),# - 1),
          CI_lower = mean_var + qt((1-0.95)/2, n - 1) * sem,
          CI_upper = mean_var - qt((1-0.95)/2, n - 1) * sem) %>% 
   left_join(comp, select_at(Functional_groups, diff), by="Functional_groups")
@@ -205,24 +201,23 @@ palOrange <- colorRampPalette(c("#E69F00", "#D55E00"))(62)
 
 
 groups_posi <- c(
-  "Capelin",
-  "Helmet_crab",
   "Leather_stars",
-  "Mussels",
-  "Pisaster_Evasterias",
+  "Mussels" ,
   "Rockfish",
-  "Snail_crust_S"
+  "Sandlance",
+  "Sea_otters" ,
+  "Sunflower_stars",
+  "Urchins"
 )
 
 groups_neg <- c(
-  "Herring_S",
-  "Invert_eat_seaduck",
-  "Pinnipeds",
+  "Barnacles",
+  "Eulachon",
+  "Jellies",
   "Resident_orca",
-  "Salmon_sharks",
-  "Spiny_dogfish",
-  "Transient_orca"
-)
+  "Sablefish",
+  "Squids",
+  "Transient_orca")
 
 # hand drawn palettes- colorblind
 #palbd_base <- c("#E76254", "#ED804A","#f39A4F","#F9B35D","#FFd06f", "#ffe0a4", "#d4e1cb")
@@ -285,7 +280,7 @@ Positive_effect_groups_plot <-
     ymin = -Inf,
     ymax = Inf,
     fill = "#D55E00",
-    alpha = 0.6
+    alpha = 0.4
   ) +
   annotate(
     "rect",
@@ -296,15 +291,34 @@ Positive_effect_groups_plot <-
     fill = "#D55E00",
     alpha = 0.4
   ) +
+  annotate(
+    "rect",
+    xmin = 2010.01,
+    xmax = 2013.90,
+    ymin = -Inf,
+    ymax = Inf,
+    fill = "gray",
+    alpha = 0.4
+  ) +
+annotate(
+  "rect",
+  xmin = 2020.01,
+  xmax = 2023.90,
+  ymin = -Inf,
+  ymax = Inf,
+  fill = "gray",
+  alpha = 0.4
+) +
+
   facet_wrap(vars(Functional_groups), ncol = 2,
              labeller = labeller(Functional_groups = 
-                                   c("Capelin"= "Capelin",
-                                    "Helmet_crab"= "Helmet crab",
-                                    "Leather_stars"= "Leather stars",
-                                    "Mussels"= "Mussels",
-                                    "Pisaster_Evasterias"= "Pisaster and Evasterias",
+                                   c("Leather_stars"= "Leather stars",
+                                    "Mussels" = "Mussels",
                                     "Rockfish"= "Rockfish",
-                                    "Snail_crust_S"= "Snails"
+                                    "Sandlance"= "Sandlance",
+                                    "Sea_otters"= "Sea otters",
+                                    "Sunflower_stars"= "Sunflower stars",
+                                    "Urchins"= "Urchins"
                                    ))) +
   theme(strip.background = element_blank(),
         strip.text = element_text(color = "black"))
@@ -374,7 +388,7 @@ Negative_effect_groups_plot <-
     ymin = -Inf,
     ymax = Inf,
     fill = "#D55E00",
-    alpha = 0.6
+    alpha = 0.4
   ) +
   annotate(
     "rect",
@@ -383,6 +397,24 @@ Negative_effect_groups_plot <-
     ymin = -Inf,
     ymax = Inf,
     fill = "#D55E00",
+    alpha = 0.4
+  ) +
+  annotate(
+    "rect",
+    xmin = 2010.01,
+    xmax = 2013.90,
+    ymin = -Inf,
+    ymax = Inf,
+    fill = "gray",
+    alpha = 0.4
+  ) +
+  annotate(
+    "rect",
+    xmin = 2020.01,
+    xmax = 2023.90,
+    ymin = -Inf,
+    ymax = Inf,
+    fill = "gray",
     alpha = 0.4
   ) +
   facet_wrap(vars(Functional_groups), ncol = 2,
