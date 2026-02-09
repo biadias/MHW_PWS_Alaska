@@ -48,9 +48,21 @@ scenarios_long <- scenarios_long %>%
   group_by(Year) %>%
   arrange(desc(abs(dp)), .by_group = TRUE) %>% 
   ungroup()
+scenarios_long$Year <- as.factor(scenarios_long$Year)
+target_years <- c("1997", "2005", "2016", "2019")
+target_index <- which(levels(scenarios_long$Year) %in% target_years)
 
 #Plot
 p_ordered <- ggplot(scenarios_long, aes(x = dp, y = Year, fill = scenario)) +
+  annotate(
+    "rect",
+    ymin = target_index - 0.5,
+    ymax = target_index + 0.5,
+    xmin = -Inf,
+    xmax = Inf,
+    fill = "#D55E00",
+    alpha = 0.1
+  ) +
   
   # 'identity' allows overlay, dogde will make the bars appear side by side.
   geom_col(position = "identity", width = 0.7, alpha = 0.9) +
@@ -64,6 +76,7 @@ p_ordered <- ggplot(scenarios_long, aes(x = dp, y = Year, fill = scenario)) +
     "From Detritus" = "grey30",
     "Total Efficiency" = "grey"
   )) +
+  
   
   labs(
     x = expression("Percent change in efficiency from baseline (%)"),

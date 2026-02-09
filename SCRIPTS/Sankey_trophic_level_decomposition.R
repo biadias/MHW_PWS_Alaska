@@ -5,13 +5,116 @@ library(ggplot2)
 library(ggalluvial)
 library(dplyr)
 library(readr)
+library(tidyverse)
 
-# 1. Load the data
-data <- read_csv("DATA/sankey_data_clean.csv")
+
+
+# Data
+data_rel <- read_csv("DATA/sankey_data_relative.csv")
 data_abs <- read_csv("DATA/sankey_data_absolute.csv")
+#-----------------------------------------------------------------------------#
+#Trophic level decomposition_ trophic change scores ####
+# This code is to find the groups that had significat changes in TLD scores 
+# between 2010 and 2016 MHW, and between 1990 2000 post oil spill period
+#-----------------------------------------------------------------------------#
+
+data <- data_rel
+
+# Oil TLD sankey ####
+# We split the data into 1990 and 2000 sets and join them to compare side-by-side
+structural_changes <- data %>%
+  filter(Year %in% c("1990", "2000")) %>%
+  select(Species, Year, Trophic_Level, Value) %>%
+  
+  # Spread to wide format or join self to get 1990 and 2000 columns
+  pivot_wider(names_from = Year, values_from = Value, values_fill = 0) %>%
+  
+  # Remove species that don't exist in both years (optional, but safer)
+  filter(`1990` > 0 | `2000` > 0) %>%
+  
+  # 3. Calculate Differences
+  mutate(
+    Diff = `2000` - `1990`,
+    Abs_Diff = abs(Diff)
+  ) %>%
+  
+  # 4. Sum the differences per Species (The L1 Norm Score)
+  group_by(Species) %>%
+  summarise(
+    Total_Score = sum(Abs_Diff),
+    # Create a summary string of the biggest changes for context
+    Major_Shifts = paste0(
+      Trophic_Level[abs(Diff) > 0.01], " (", round(Diff[abs(Diff) > 0.01], 3), ")",
+      collapse = ", "
+    )
+  ) %>%
+  
+  # 5. Sort by biggest change
+  arrange(desc(Total_Score))
+
+# 6. View the Top 5 Affected Species
+str_changes_oil <- print(head(structural_changes, 10))
+
+# 2010 - 2016 MHW
+
+# Analysis
+# We split the data into 1990 and 2000 sets and join them to compare side-by-side
+structural_changes_mhw <- data %>%
+  filter(Year %in% c("2010", "2016 MHW")) %>%
+  select(Species, Year, Trophic_Level, Value) %>%
+  
+  # Spread to wide format or join self to get 1990 and 2000 columns
+  pivot_wider(names_from = Year, values_from = Value, values_fill = 0) %>%
+  
+  # Remove species that don't exist in both years (optional, but safer)
+  filter(`2010` > 0 | `2016 MHW` > 0) %>%
+  
+  # 3. Calculate Differences
+  mutate(
+    Diff = `2016 MHW` - `2010`,
+    Abs_Diff = abs(Diff)
+  ) %>%
+  
+  # 4. Sum the differences per Species (The L1 Norm Score)
+  group_by(Species) %>%
+  summarise(
+    Total_Score = sum(Abs_Diff),
+    # Create a summary string of the biggest changes for context
+    Major_Shifts = paste0(
+      Trophic_Level[abs(Diff) > 0.01], " (", round(Diff[abs(Diff) > 0.01], 3), ")",
+      collapse = ", "
+    )
+  ) %>%
+  
+  # 5. Sort by biggest change
+  arrange(desc(Total_Score))
+
+# 6. View the Top 5 Affected Species
+str_changes_mhw <- print(head(structural_changes_mhw, 6
+                              ))
 
 
-# 2. Define the plotting function
+
+
+# --- OPTIONAL: VISUALIZE THE SHIFT FOR TOP SPECIES ---
+# Let's plot the top species to see the shift
+top_species <- structural_changes$Species[4] # e.g., "Seabirds"
+
+data %>%
+  filter(Species == top_species, Year %in% c("1990", "2000")) %>%
+  ggplot(aes(x = Trophic_Level, y = Value, fill = Year)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = c("1990" = "#2166ac", "2000" = "#4393c3")) +
+  labs(
+    title = paste("Trophic Shift: ", top_species, "(1990 vs 2000)"),
+    y = "Relative Contribution",
+    x = "Trophic Level Input"
+  ) +
+  theme_minimal()
+
+## Sankey plots bulk ####
+
+# Plotting function
 plot_species_sankey <- function(data, species_name, years_to_include = NULL) {
   
   # --- Data Filtering & Prep ---
@@ -37,13 +140,13 @@ plot_species_sankey <- function(data, species_name, years_to_include = NULL) {
   
   # --- Color Definition (Warm vs Cold) ---
   custom_colors <- c(
-    "1990" = "#2166ac",      # Cold (Blue)
-    "2000" = "#4393c3",      # Cold (Blue)
-    "2010" = "#92c5de",      # Cold (Blue)
-    "1997 MHW" = "#b2182b",  # Warm (Red)
-    "2005 MHW" = "#d6604d",  # Warm (Orange)
-    "2016 MHW" = "#f4a582",  # Warm (Salmon)
-    "2019 MHW" = "#fddbc7"   # Warm (Peach)
+    "1990" = "#92c5de",      # Cold (Blue)"#2166ac"
+    "2000" = "#4393c3",      # Cold (Blue)"#4393c3"
+    "2010" = "#2166ac",      # Cold (Blue)"#92c5de"
+    "1997 MHW" = "#b2182b",  # Warm (Red)"#b2182b"
+    "2005 MHW" = "#d6604d",  # Warm (Orange)"#d6604d"
+    "2016 MHW" = "#d6604d",  # Warm (Salmon)"#f4a582"
+    "2019 MHW" = "#b2182b"   # Warm (Peach)"#fddbc7"
   )
   
   # --- Plotting ---
@@ -81,20 +184,19 @@ plot_species_sankey <- function(data, species_name, years_to_include = NULL) {
     )
 }
 
-# ==========================================
-# 3. Usage Examples
-# ==========================================
+
+#-----------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------#
 
 # Example A: Plot a single species (All Years)
-p1 <- plot_species_sankey(data_abs, "Transient_orca", years_to_include = c("1990", "2019 MHW"))
-print(p1)
+plot_species_sankey(data_rel, "Transient_orca", years_to_include = c("2010", "2016 MHW"))
+plot_species_sankey(data_abs, "Sea_otters", years_to_include = c("2010", "2016 MHW"))
 
 plot_species_sankey(data_abs, "Sleeper_sharks", years_to_include = c("2010", "2016 MHW"))
 
 # Example B: Plot a single species (Specific Years Only)
 # Comparing 1990 to 2019
-p2 <- plot_species_sankey(data, "Halibut", years_to_include = c("1990", "2019 MHW"))
-print(p2)
+plot_species_sankey(data_abs, "Halibut", years_to_include = c("2000", "2016 MHW"))
 
 # Example C: Generate ALL plots and save to one PDF
 save_all_species_to_pdf <- function(data, filename="Sankey_Plots.pdf", years=NULL) {
@@ -109,7 +211,7 @@ save_all_species_to_pdf <- function(data, filename="Sankey_Plots.pdf", years=NUL
     # (Prevents errors if a species is missing from specific years)
     tryCatch({
       print(paste("Generating:", sp))
-      p <- plot_species_sankey(data, sp, years_to_include = years)
+      p <- plot_species_sankey(data, sp, years_to_include = c("2000", "2016 MHW"))
       print(p) # Print to PDF
     }, error = function(e) {
       print(paste("Skipping", sp, "due to missing data or error."))
@@ -121,21 +223,27 @@ save_all_species_to_pdf <- function(data, filename="Sankey_Plots.pdf", years=NUL
 }
 
 # Run the bulk save:
-# save_all_species_to_pdf(data, "My_Sankey_Plots.pdf")
-#------------------------------------------------------------------------------#
-#------------------------------------------------------------------------------#
+save_all_species_to_pdf(data, "My_Sankey_Plots_TLD.pdf")
 
+
+
+
+
+#------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------#
+#Percent change MHW 2010 vs 2016 ####
 # Install packages if missing
 # install.packages(c("tidyverse", "scales"))
 
 library(tidyverse)
 library(scales)
 
-# 1. Load the Absolute Data
+# Absolute Data
 # Make sure "sankey_data_absolute.csv" is in your working directory
-data <- read_csv("DATA/sankey_data_absolute.csv")
+data <- data_abs %>% 
+  filter(!Species %in% "Total")
 
-# 2. Filter and Calculate Totals
+# Filter and Calculate Totals
 # We sum across all Trophic Levels to get the total biomass/flow per species per year
 pct_change_data <- data %>%
   filter(Year %in% c("2010", "2016 MHW")) %>%
@@ -143,7 +251,7 @@ pct_change_data <- data %>%
   summarise(Total_Value = sum(Value, na.rm = TRUE), .groups = "drop") %>%
   pivot_wider(names_from = Year, values_from = Total_Value, values_fill = 0) %>%
   
-  # 3. Calculate Percent Change
+  # Percent Change
   # Formula: (New - Old) / Old * 100
   mutate(
     Diff = `2016 MHW` - `2010`,
@@ -154,11 +262,11 @@ pct_change_data <- data %>%
   filter(`2010` > 0.001) %>%
   filter(!is.na(Pct_Change)) %>%
   
-  # 4. Sort and Filter for Top Changes
+  # Sort and Filter for Top Changes
   # Let's keep the Top 20 species with the biggest absolute percent change
   mutate(Abs_Change = abs(Pct_Change)) %>%
   arrange(desc(Abs_Change)) %>%
-  head(30) %>%
+  head(40) %>%
   
   # Create a category for coloring (Increase vs Decrease)
   mutate(
@@ -167,13 +275,13 @@ pct_change_data <- data %>%
   )
 
 # 5. Plot the Diverging Bar Chart
-ggplot(pct_change_data, aes(x = Species, y = Pct_Change, fill = Type)) +
+TDL_MHW_percent_change <- ggplot(pct_change_data, aes(x = Species, y = Pct_Change, fill = Type)) +
   geom_col(width = 0.7) +
-  geom_text(aes(label = paste0(round(Pct_Change, 1), "%")), 
-            hjust = ifelse(pct_change_data$Pct_Change > 0, -0.2, 1.2), 
-            size = 3.5) +
+  #geom_text(aes(label = paste0(round(Pct_Change, 1), "%")), 
+  #          hjust = ifelse(pct_change_data$Pct_Change > 0, -0.2, 1.2), 
+  #          size = 3.5) +
   coord_flip() + # Flip to horizontal bars
-  scale_fill_manual(values = c("Decrease" = "#b2182b", "Increase" = "#2166ac")) +
+  scale_fill_manual(values = c("Decrease" = "#D55E00", "Increase" = "#0072B2")) +
   expand_limits(y = c(min(pct_change_data$Pct_Change)*1.2, max(pct_change_data$Pct_Change)*1.2)) +
   labs(
     title = "Top 20 Species by Percent Change (2010 vs 2016 MHW)",
@@ -188,3 +296,80 @@ ggplot(pct_change_data, aes(x = Species, y = Pct_Change, fill = Type)) +
     axis.text.y = element_text(size = 10, face = "bold"),
     panel.grid.major.y = element_blank() # Clean up horizontal grid lines
   )
+
+ggsave(
+  "FIGURES/TDL_MHW_percent_change.png",
+  TDL_MHW_percent_change,
+  width = 6, 
+  height = 8,
+  bg = "transparent"
+)
+#------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------#
+#Percent change oil 1990 vs 2000 ####
+
+# Absolute Data
+data_oil <- data_abs %>% 
+  filter(!Species %in% "Total")
+
+# Filter and Calculate Totals
+# We sum across all Trophic Levels to get the total biomass/flow per species per year
+pct_change_data_oil <- data_oil %>%
+  filter(Year %in% c("1990", "2000")) %>%
+  group_by(Species, Year) %>%
+  summarise(Total_Value = sum(Value, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = Year, values_from = Total_Value, values_fill = 0) %>%
+  
+  # Percent Change
+  # Formula: (New - Old) / Old * 100
+  mutate(
+    Diff = `2000` - `1990`,
+    Pct_Change = (Diff / `1990`) * 100
+  ) %>%
+  
+  # Remove species with 0 value in year 2000 (div by zero) or negligible change
+  filter(`2000` > 0.001) %>%
+  filter(!is.na(Pct_Change)) %>%
+  
+  # Sort and Filter for Top Changes
+  # Let's keep the Top 20 species with the biggest absolute percent change
+  mutate(Abs_Change = abs(Pct_Change)) %>%
+  arrange(desc(Abs_Change)) %>%
+  head(40) %>%
+  
+  # Create a category for coloring (Increase vs Decrease)
+ mutate(
+   Type = ifelse(Pct_Change > 0, "Increase", "Decrease"),
+   Species = fct_reorder(Species, Pct_Change) # Order factor for plotting
+ )
+
+# 5. Plot the Diverging Bar Chart
+TDL_oil_percent_change <- ggplot(pct_change_data_oil, aes(x = Species, y = Pct_Change, fill = Type)) +
+  geom_col(width = 0.7) +
+  #geom_text(aes(label = paste0(round(Pct_Change, 1), "%")), 
+   #         hjust = ifelse(pct_change_data_oil$Pct_Change > 0, -0.2, 1.2), 
+    #        size = 3.5) +
+  coord_flip() + # Flip to horizontal bars
+  scale_fill_manual(values = c("Decrease" = "#D55E00", "Increase" = "#0072B2")) +
+  expand_limits(y = c(min(pct_change_data_oil$Pct_Change)*1.2, max(pct_change_data_oil$Pct_Change)*1.2)) +
+  labs(
+    title = "Top 20 Species by Percent Change (1990 vs 2000)",
+    subtitle = "Relative change in total absolute biomass/flow",
+    y = "Percent Change (%)",
+    x = "Species",
+    fill = "Direction"
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "top",
+    axis.text.y = element_text(size = 10, face = "bold"),
+    panel.grid.major.y = element_blank() # Clean up horizontal grid lines
+  )
+
+ggsave(
+  "FIGURES/TDL_oil_percent_change.png",
+  TDL_oil_percent_change,
+  width = 6, 
+  height = 8,
+  bg = "transparent"
+)
