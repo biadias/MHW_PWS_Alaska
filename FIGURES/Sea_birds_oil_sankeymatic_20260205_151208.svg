@@ -1,0 +1,71 @@
+<svg height="600" width="600" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 2/5/2026, 3:12:08 PM -->
+<g transform="translate(67.53386,18)">
+<g id="sankey_flows">
+<path id="flow2" d="M12 273.62391C230.7004 273.62391 230.7004 190.49349 449.40079 190.49349" fill="none" stroke-width="70.86733" stroke="#661100" opacity="0.45"><title>IV → 1990: 1.317100</title></path>
+<path id="flow8" d="M12 337.46692C230.7004 337.46692 230.7004 356.79923 449.40079 356.79923" fill="none" stroke-width="56.81869" stroke="#5fa2ce" opacity="0.45"><title>IV → 2000: 1.056000</title></path>
+<path id="flow7" d="M12 179.34241C230.7004 179.34241 230.7004 311.24205 449.40079 311.24205" fill="none" stroke-width="34.29568" stroke="#5fa2ce" opacity="0.45"><title>III → 2000: 0.637400</title></path>
+<path id="flow6" d="M12 77.43666C230.7004 77.43666 230.7004 277.34185 449.40079 277.34185" fill="none" stroke-width="33.50473" stroke="#5fa2ce" opacity="0.45"><title>II → 2000: 0.622700</title></path>
+<path id="flow1" d="M12 149.0418C230.7004 149.0418 230.7004 141.90705 449.40079 141.90705" fill="none" stroke-width="26.30555" stroke="#661100" opacity="0.45"><title>III → 1990: 0.488900</title></path>
+<path id="flow0" d="M12 47.71714C230.7004 47.71714 230.7004 115.78713 449.40079 115.78713" fill="none" stroke-width="25.93429" stroke="#661100" opacity="0.45"><title>II → 1990: 0.482000</title></path>
+<path id="flow3" d="M12 397.65769C230.7004 397.65769 230.7004 234.55757 449.40079 234.55757" fill="none" stroke-width="17.26083" stroke="#661100" opacity="0.45"><title>V → 1990: 0.320800</title></path>
+<path id="flow9" d="M12 414.09529C230.7004 414.09529 230.7004 393.01577 449.40079 393.01577" fill="none" stroke-width="15.61438" stroke="#5fa2ce" opacity="0.45"><title>V → 2000: 0.290200</title></path>
+<path id="flow4" d="M12 458.98537C230.7004 458.98537 230.7004 243.98135 449.40079 243.98135" fill="none" stroke-width="1.58673" stroke="#661100" opacity="0.45"><title>VI → 1990: 0.029490</title></path>
+<path id="flow10" d="M12 460.55596C230.7004 460.55596 230.7004 401.60018 449.40079 401.60018" fill="none" stroke-width="1.55444" stroke="#5fa2ce" opacity="0.45"><title>VI → 2000: 0.028890</title></path>
+<path id="flow11" d="M12 507.18339C230.7004 507.18339 230.7004 402.4487 449.40079 402.4487" fill="none" stroke-width="1" stroke="#5fa2ce" opacity="0.45"><title>VII → 2000: 0.002650</title></path>
+<path id="flow5" d="M12 507.05472C230.7004 507.05472 230.7004 244.83209 449.40079 244.83209" fill="none" stroke-width="1" stroke="#661100" opacity="0.45"><title>VII → 1990: 0.002133</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="34.75" height="59.43902" width="12" fill="#888888" fill-opacity="1"><title>II:
+1.104700</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="449.40079" y="76.81999" height="142.06949" width="12" fill="#661100" fill-opacity="1" transform="translate(0,26)"><title>1990:
+2.640423</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="0" y="135.88902" height="60.60122" width="12" fill="#888888" fill-opacity="1"><title>III:
+1.126300</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="0" y="238.19025" height="127.68602" width="12" fill="#888888" fill-opacity="1"><title>IV:
+2.373100</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="0" y="407.57627" height="32.87521" width="12" fill="#888888" fill-opacity="1" transform="translate(0,-18.549)"><title>V:
+0.611000</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="0" y="482.15148" height="3.14117" width="12" fill="#888888" fill-opacity="1" transform="translate(0,-23.95947)"><title>VI:
+0.058380</title></rect>
+</g>
+<g class="node">
+<rect id="r6" class="for_r6" x="0" y="526.99265" height="0.25735" width="12" fill="#888888" fill-opacity="1" transform="translate(0,-19.99531)"><title>VII:
+0.004783</title></rect>
+</g>
+<g class="node">
+<rect id="r7" class="for_r7" x="449.40079" y="260.58948" height="141.93051" width="12" fill="#5fa2ce" fill-opacity="1"><title>2000:
+2.637840</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="16px" fill="#000000">
+<rect id="label0_bg" class="for_r0" x="-55.4091" y="43.29351" width="53.90116" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-6.29754" y="64.46951" font-weight="400" font-size="21.44px" dy="0.824">II<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">1.104700</tspan></text>
+<rect id="label1_bg" class="for_r1" x="463.03349" y="126.67874" width="57.43269" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,26)"></rect>
+<text id="label1" class="for_r1" text-anchor="start" x="467.69833" y="147.85473" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,26)">1990<tspan x="467.69833" dy="15.272" font-weight="400" font-size="10.56px">2.640423</tspan></text>
+<rect id="label2_bg" class="for_r2" x="-55.4091" y="145.01364" width="53.90116" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label2" class="for_r2" text-anchor="end" x="-6.29754" y="166.18964" font-weight="400" font-size="21.44px" dy="0.824">III<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">1.126300</tspan></text>
+<rect id="label3_bg" class="for_r3" x="-55.4091" y="280.85727" width="54.46749" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label3" class="for_r3" text-anchor="end" x="-6.29754" y="302.03326" font-weight="400" font-size="21.44px" dy="0.824">IV<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">2.373100</tspan></text>
+<rect id="label4_bg" class="for_r4" x="-54.62785" y="402.83786" width="53.68266" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-18.549)"></rect>
+<text id="label4" class="for_r4" text-anchor="end" x="-6.29754" y="424.01387" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,-18.549)">V<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.611000</tspan></text>
+<rect id="label5_bg" class="for_r5" x="-55.4091" y="462.54605" width="53.90116" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-23.95947)"></rect>
+<text id="label5" class="for_r5" text-anchor="end" x="-6.29754" y="483.72206" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,-23.95947)">VI<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.058380</tspan></text>
+<rect id="label6_bg" class="for_r6" x="-55.4091" y="505.94531" width="53.90116" height="42.27203" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-19.99531)"></rect>
+<text id="label6" class="for_r6" text-anchor="end" x="-6.29754" y="527.12132" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,-19.99531)">VII<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.004783</tspan></text>
+<rect id="label7_bg" class="for_r7" x="463.03349" y="310.37872" width="57.43269" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label7" class="for_r7" text-anchor="start" x="467.69833" y="331.55473" font-weight="400" font-size="21.44px" dy="0.824">2000<tspan x="467.69833" dy="15.272" font-weight="400" font-size="10.56px">2.637840</tspan></text>
+</g>
+</g></svg>

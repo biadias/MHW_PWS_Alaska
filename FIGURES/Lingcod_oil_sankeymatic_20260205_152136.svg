@@ -1,0 +1,63 @@
+<svg height="600" width="600" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 2/5/2026, 3:21:36 PM -->
+<g transform="translate(67.53386,18)">
+<g id="sankey_flows">
+<path id="flow1" d="M14 164.45993C231.7004 164.45993 231.7004 227.76089 449.40079 227.76089" fill="none" stroke-width="97.43259" stroke="#661100" opacity="0.45"><title>IV → 1990: 0.128400</title></path>
+<path id="flow6" d="M14 254.15255C231.7004 254.15255 231.7004 427.8712 449.40079 427.8712" fill="none" stroke-width="81.95265" stroke="#5fa2ce" opacity="0.45"><title>IV → 2000: 0.108000</title></path>
+<path id="flow5" d="M12 70.87925C230.7004 70.87925 230.7004 372.49246 449.40079 372.49246" fill="none" stroke-width="28.80484" stroke="#5fa2ce" opacity="0.45"><title>III → 2000: 0.037960</title></path>
+<path id="flow2" d="M12 364.34912C230.7004 364.34912 230.7004 289.74138 449.40079 289.74138" fill="none" stroke-width="26.52837" stroke="#661100" opacity="0.45"><title>V → 1990: 0.034960</title></path>
+<path id="flow0" d="M12 45.64467C230.7004 45.64467 230.7004 168.21243 449.40079 168.21243" fill="none" stroke-width="21.66433" stroke="#661100" opacity="0.45"><title>III → 1990: 0.028550</title></path>
+<path id="flow7" d="M12 388.33924C230.7004 388.33924 230.7004 479.57345 449.40079 479.57345" fill="none" stroke-width="21.45186" stroke="#5fa2ce" opacity="0.45"><title>V → 2000: 0.028270</title></path>
+<path id="flow3" d="M12 470.73567C230.7004 470.73567 230.7004 304.43784 449.40079 304.43784" fill="none" stroke-width="2.86455" stroke="#661100" opacity="0.45"><title>VI → 1990: 0.003775</title></path>
+<path id="flow8" d="M12 473.34791C230.7004 473.34791 230.7004 491.47935 449.40079 491.47935" fill="none" stroke-width="2.35993" stroke="#5fa2ce" opacity="0.45"><title>VI → 2000: 0.003110</title></path>
+<path id="flow9" d="M12 527.07671C230.7004 527.07671 230.7004 492.77011 449.40079 492.77011" fill="none" stroke-width="1" stroke="#5fa2ce" opacity="0.45"><title>VII → 2000: 0.000292</title></path>
+<path id="flow4" d="M12 526.85627C230.7004 526.85627 230.7004 305.97976 449.40079 305.97976" fill="none" stroke-width="1" stroke="#661100" opacity="0.45"><title>VII → 1990: 0.000289</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="34.8125" height="50.46917" width="12" fill="#888888" fill-opacity="1"><title>III:
+0.066510</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="449.40079" y="63.9135" height="148.70915" width="12" fill="#661100" fill-opacity="1" transform="translate(0,93.46676)"><title>1990:
+0.195974</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="0" y="137.50042" height="179.38523" width="12" fill="#888888" fill-opacity="1" transform="translate(2,-21.75679)"><title>IV:
+0.236400</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="0" y="369.10441" height="47.98024" width="12" fill="#888888" fill-opacity="1" transform="translate(0,-18.01947)"><title>V:
+0.063230</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="0" y="469.30339" height="5.22448" width="12" fill="#888888" fill-opacity="1"><title>VI:
+0.006885</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="0" y="526.74663" height="0.44087" width="12" fill="#888888" fill-opacity="1"><title>VII:
+0.000581</title></rect>
+</g>
+<g class="node">
+<rect id="r6" class="for_r6" x="449.40079" y="264.8414" height="134.79085" width="12" fill="#5fa2ce" fill-opacity="1" transform="translate(0,93.24864)"><title>2000:
+0.177632</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="16px" fill="#000000">
+<rect id="label0_bg" class="for_r0" x="-55.4091" y="38.87109" width="53.90116" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-6.29754" y="60.04709" font-weight="400" font-size="21.44px" dy="0.824">III<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.066510</tspan></text>
+<rect id="label1_bg" class="for_r1" x="463.03349" y="117.09209" width="57.43269" height="42.27199" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,93.46676)"></rect>
+<text id="label1" class="for_r1" text-anchor="start" x="467.69833" y="138.26808" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,93.46676)">1990<tspan x="467.69833" dy="15.272" font-weight="400" font-size="10.56px">0.195974</tspan></text>
+<rect id="label2_bg" class="for_r2" x="-55.4091" y="206.01704" width="54.46749" height="42.27199" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(2,-21.75679)"></rect>
+<text id="label2" class="for_r2" text-anchor="end" x="-6.29754" y="227.19304" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(2,-21.75679)">IV<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.236400</tspan></text>
+<rect id="label3_bg" class="for_r3" x="-55.4091" y="371.91852" width="54.46391" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-18.01947)"></rect>
+<text id="label3" class="for_r3" text-anchor="end" x="-6.29754" y="393.09452" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,-18.01947)">V<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.063230</tspan></text>
+<rect id="label4_bg" class="for_r4" x="-55.4091" y="450.73962" width="53.90116" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label4" class="for_r4" text-anchor="end" x="-6.29754" y="471.91563" font-weight="400" font-size="21.44px" dy="0.824">VI<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.006885</tspan></text>
+<rect id="label5_bg" class="for_r5" x="-55.4091" y="505.79102" width="53.77641" height="42.27203" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label5" class="for_r5" text-anchor="end" x="-6.29754" y="526.96706" font-weight="400" font-size="21.44px" dy="0.824">VII<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.000581</tspan></text>
+<rect id="label6_bg" class="for_r6" x="463.03349" y="311.06082" width="57.43269" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,93.24864)"></rect>
+<text id="label6" class="for_r6" text-anchor="start" x="467.69833" y="332.23683" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,93.24864)">2000<tspan x="467.69833" dy="15.272" font-weight="400" font-size="10.56px">0.177632</tspan></text>
+</g>
+</g></svg>

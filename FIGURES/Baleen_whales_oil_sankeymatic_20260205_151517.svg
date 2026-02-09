@@ -1,0 +1,47 @@
+<svg height="600" width="600" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 2/5/2026, 3:15:17 PM -->
+<g transform="translate(67.53386,18)">
+<g id="sankey_flows">
+<path id="flow3" d="M12 187.2398C230.7004 187.2398 230.7004 323.20709 449.40079 323.20709" fill="none" stroke-width="103.89689" stroke="#5fa2ce" opacity="0.45"><title>III → 2000: 0.950800</title></path>
+<path id="flow0" d="M12 89.98125C230.7004 89.98125 230.7004 140.56517 449.40079 140.56517" fill="none" stroke-width="90.62021" stroke="#661100" opacity="0.45"><title>III → 1990: 0.829300</title></path>
+<path id="flow1" d="M14 341.92049C231.7004 341.92049 231.7004 210.79501 449.40079 210.79501" fill="none" stroke-width="49.83947" stroke="#661100" opacity="0.45"><title>IV → 1990: 0.456100</title></path>
+<path id="flow4" d="M14 385.50954C231.7004 385.50954 231.7004 393.82485 449.40079 393.82485" fill="none" stroke-width="37.33863" stroke="#5fa2ce" opacity="0.45"><title>IV → 2000: 0.341700</title></path>
+<path id="flow2" d="M12 516.70941C230.7004 516.70941 230.7004 236.10605 449.40079 236.10605" fill="none" stroke-width="1" stroke="#661100" opacity="0.45"><title>V → 1990: 0.007162</title></path>
+<path id="flow5" d="M12 517.1118C230.7004 517.1118 230.7004 412.50526 449.40079 412.50526" fill="none" stroke-width="1" stroke="#5fa2ce" opacity="0.45"><title>V → 2000: 0.000203</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="44.67115" height="194.5171" width="12" fill="#888888" fill-opacity="1"><title>III:
+1.780100</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="449.40079" y="25.20385" height="141.2423" width="12" fill="#661100" fill-opacity="1" transform="translate(0,70.05122)"><title>1990:
+1.292562</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="0" y="344.00075" height="87.1781" width="12" fill="#888888" fill-opacity="1" transform="translate(2,-27)"><title>IV:
+0.797800</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="0" y="535.99135" height="0.8048" width="12" fill="#888888" fill-opacity="1" transform="translate(0,-19.67326)"><title>V:
+0.007365</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="449.40079" y="271.25865" height="141.2577" width="12" fill="#5fa2ce" fill-opacity="1"><title>2000:
+1.292703</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="16px" fill="#000000">
+<rect id="label0_bg" class="for_r0" x="-55.4091" y="120.75371" width="53.90116" height="42.27199" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-6.29754" y="141.9297" font-weight="400" font-size="21.44px" dy="0.824">III<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">1.780100</tspan></text>
+<rect id="label1_bg" class="for_r1" x="463.03349" y="74.64899" width="57.43269" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,70.05122)"></rect>
+<text id="label1" class="for_r1" text-anchor="start" x="467.69833" y="95.825" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,70.05122)">1990<tspan x="467.69833" dy="15.272" font-weight="400" font-size="10.56px">1.292562</tspan></text>
+<rect id="label2_bg" class="for_r2" x="-55.4091" y="366.41382" width="54.46749" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(2,-27)"></rect>
+<text id="label2" class="for_r2" text-anchor="end" x="-6.29754" y="387.5898" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(2,-27)">IV<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.797800</tspan></text>
+<rect id="label3_bg" class="for_r3" x="-55.4091" y="515.21771" width="54.46391" height="42.27203" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0" transform="translate(0,-19.67326)"></rect>
+<text id="label3" class="for_r3" text-anchor="end" x="-6.29754" y="536.39375" font-weight="400" font-size="21.44px" dy="0.824" transform="translate(0,-19.67326)">V<tspan x="-6.29754" dy="15.272" font-weight="400" font-size="10.56px">0.007365</tspan></text>
+<rect id="label4_bg" class="for_r4" x="463.03349" y="320.71152" width="57.43269" height="42.272" rx="4" fill="#fff" fill-opacity="0.75" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label4" class="for_r4" text-anchor="start" x="467.69833" y="341.8875" font-weight="400" font-size="21.44px" dy="0.824">2000<tspan x="467.69833" dy="15.272" font-weight="400" font-size="10.56px">1.292703</tspan></text>
+</g>
+</g></svg>
