@@ -315,7 +315,7 @@ annotate(
                                    c("Leather_stars"= "Leather stars",
                                     "Mussels" = "Mussels",
                                     "Rockfish"= "Rockfish",
-                                    "Sandlance"= "Sandlance",
+                                    "Sandlance"= "Sand lance",
                                     "Sea_otters"= "Sea otters",
                                     "Sunflower_stars"= "Sunflower stars",
                                     "Urchins"= "Urchins"

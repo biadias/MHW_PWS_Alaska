@@ -76,16 +76,17 @@ Ascendency_year <- data_summary %>%
     legend.text = element_text(size = 12, color = "darkgrey"),
     legend.title = element_text(size = 12, color = "darkgrey")
   ) +
-  labs(y = "Ascendency")
+  labs(y = "Ascendency",
+       x ="" )
 
 
-ggsave(
-  "FIGURES/Ascendency_year.png",
-  Ascendency_year,
-  width = 8,
-  height = 4.6,
-  bg = "transparent"
-)
+#ggsave(
+#  "FIGURES/Ascendency_year.png",
+#  Ascendency_year,
+#  width = 8,
+#  height = 4.6,
+#  bg = "transparent"
+#)
 
 
 
@@ -144,13 +145,13 @@ Lossprod_year <- data_summary %>%
   ) +
   labs(y = expression(paste("Production loss (","mt" , ~km^{-2},")" )))
 
-ggsave(
-  "FIGURES/Lossprod_year.png",
-  Lossprod_year,
-  width = 8,
-  height = 4.6,
-  bg = "transparent"
-)
+#ggsave(
+#  "FIGURES/Lossprod_year.png",
+#  Lossprod_year,
+#  width = 8,
+#  height = 4.6,
+#  bg = "transparent"
+#)
 
 # Plot for Culmulative Loss of production ####
 
@@ -353,16 +354,16 @@ mhwloli_duration <- ggplot() +
     legend.text = element_text(size = 12, color = "darkgrey"),
     legend.title = element_text(size = 12, color = "darkgrey")
   ) 
-
-plot_lossprod_mhw <- Lossprod_year / mhwloli_intensity/ mhwloli_duration
+#PLOT ####
+plot_lossprod_mhw <- Ascendency_year / Lossprod_year / mhwloli_intensity/ mhwloli_duration
 
 #grid::grid.draw(grid::textGrob(ylab,x=0.02, rot=90))
 plot_lossprod_mhw_v1 <- plot_lossprod_mhw+
-  plot_annotation(tag_levels= list(c("A ","B ","C ")))
+  plot_annotation(tag_levels= list(c("A ","B ","C ","D ")))
 
 #ggsave("PLOTS/plot_a_exp.svg",plot_all_exp, width = 7.16, height = 10)
 
-ggsave("FIGURES/plot_lossprod_mhw_v1.png",plot_lossprod_mhw_v1, width = 5.8, height = 10)
+ggsave("FIGURES/plot_asce_lossprod_mhw_v2.png",plot_lossprod_mhw_v1, width = 5.8, height = 10)
 
 
 

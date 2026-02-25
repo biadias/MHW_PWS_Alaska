@@ -94,23 +94,90 @@ str_changes_mhw <- print(head(structural_changes_mhw, 6
                               ))
 
 
-
-
-# --- OPTIONAL: VISUALIZE THE SHIFT FOR TOP SPECIES ---
-# Let's plot the top species to see the shift
+# Histogram of TLD scores for the top species
 top_species <- structural_changes$Species[4] # e.g., "Seabirds"
 
 data %>%
   filter(Species == top_species, Year %in% c("1990", "2000")) %>%
   ggplot(aes(x = Trophic_Level, y = Value, fill = Year)) +
   geom_col(position = "dodge") +
-  scale_fill_manual(values = c("1990" = "#2166ac", "2000" = "#4393c3")) +
+  scale_fill_manual(values = c("1990" = "#661100", "2000" = "#5FA2CE")) +
   labs(
     title = paste("Trophic Shift: ", top_species, "(1990 vs 2000)"),
     y = "Relative Contribution",
     x = "Trophic Level Input"
   ) +
   theme_minimal()
+#---------------------#
+
+plot_species_shift_oil <- function(data, species_name) {
+  
+  # Filter data for the specific species and target years
+  plot_data <- data %>%
+    filter(Species == species_name, 
+           Year %in% c("1990", "2000"))
+  
+  # Ensure Year is treated as a factor for discrete mapping
+  plot_data$Year <- as.factor(plot_data$Year)
+  
+  # Create the plot
+  ggplot(plot_data, aes(x = Trophic_Level, y = Value, fill = Year)) +
+    geom_col(position = "dodge", show.legend = FALSE) +
+    scale_fill_manual(values = c("1990" = "#661100", "2000" = "#5FA2CE")) +
+    labs(
+      title = paste(species_name),
+      y = "", #Relative Contribution",
+      x = "" #"Discrete Trophic Level sensu Lindeman"
+    ) +
+    theme_minimal()
+}
+ top_species <- structural_changes$Species[1:6]
+ plots_oil <- lapply(top_species, function(s) plot_species_shift_oil(data_abs, s))
+ oil_tdl <- wrap_plots(plots_oil, ncol = 2)
+
+ ggsave(
+   "FIGURES/oil_tdl.eps",
+   oil_tdl,
+   width = 6, 
+   height = 8,
+   bg = "transparent"
+ )
+ 
+ #------------#
+ 
+ plot_species_shift_MHW <- function(data, species_name) {
+   
+   # Filter data for the specific species and target years
+   plot_data <- data %>%
+     filter(Species == species_name, 
+            Year %in% c("2010", "2016 MHW"))
+   
+   # Ensure Year is treated as a factor for discrete mapping
+   plot_data$Year <- as.factor(plot_data$Year)
+   
+   # Create the plot
+   ggplot(plot_data, aes(x = Trophic_Level, y = Value, fill = Year)) +
+     geom_col(position = "dodge", show.legend = FALSE) +
+     scale_fill_manual(values = c("2010" = "#2166AC", "2016 MHW" = "#C85200")) +
+     labs(
+       title = paste(species_name),
+       y = "", #Relative Contribution",
+       x = "" #"Discrete Trophic Level sensu Lindeman"
+     ) +
+     theme_minimal()
+ }
+ top_species_mhs <- structural_changes_mhw$Species[1:4]
+ plots_mhw <- lapply(top_species_mhs, function(s) plot_species_shift_MHW(data_abs, s))
+ mhw_tdl<- wrap_plots(plots_mhw, ncol = 2)
+ 
+ ggsave(
+   "FIGURES/mhw_tdl.eps",
+   mhw_tdl,
+   width = 6, 
+   height = 6,
+   bg = "transparent"
+ )
+ 
 
 ## Sankey plots bulk ####
 
@@ -284,11 +351,11 @@ TDL_MHW_percent_change <- ggplot(pct_change_data, aes(x = Species, y = Pct_Chang
   scale_fill_manual(values = c("Decrease" = "#D55E00", "Increase" = "#0072B2")) +
   expand_limits(y = c(min(pct_change_data$Pct_Change)*1.2, max(pct_change_data$Pct_Change)*1.2)) +
   labs(
-    title = "Top 20 Species by Percent Change (2010 vs 2016 MHW)",
-    subtitle = "Relative change in total absolute biomass/flow",
-    y = "Percent Change (%)",
-    x = "Species",
-    fill = "Direction"
+    title = element_blank(),#"Top 20 Species by Percent Change (2010 vs 2016 MHW)",
+    subtitle = element_blank(),
+    y = "Percent Change (%) between 2010 and 2016",
+    x = "Functional Groups",
+    fill = " "
   ) +
   theme_minimal() +
   theme(
@@ -353,11 +420,11 @@ TDL_oil_percent_change <- ggplot(pct_change_data_oil, aes(x = Species, y = Pct_C
   scale_fill_manual(values = c("Decrease" = "#D55E00", "Increase" = "#0072B2")) +
   expand_limits(y = c(min(pct_change_data_oil$Pct_Change)*1.2, max(pct_change_data_oil$Pct_Change)*1.2)) +
   labs(
-    title = "Top 20 Species by Percent Change (1990 vs 2000)",
-    subtitle = "Relative change in total absolute biomass/flow",
-    y = "Percent Change (%)",
-    x = "Species",
-    fill = "Direction"
+    title = element_blank(),#"Top 20 Species by Percent Change (2010 vs 2016 MHW)",
+    subtitle = element_blank(),
+    y = "Percent Change (%) between 1990 and 2000",
+    x = "Functional Groups",
+    fill = " "
   ) +
   theme_minimal() +
   theme(
